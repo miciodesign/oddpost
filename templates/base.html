@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if title %}{{ title }} · {{ site.name }}{% else %}{{ site.name }} · {{ site.tagline }}{% endif %}</title>
+<meta name="description" content="{% block description %}{{ site.description }}{% endblock %}">
+<link rel="canonical" href="{{ site.url }}{% block canonical %}/{% endblock %}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="/feed.xml">
+<link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:type" content="{% block ogtype %}website{% endblock %}">
+<meta property="og:title" content="{{ title or site.name }}">
+<meta property="og:description" content="{{ self.description() }}">
+<meta property="og:url" content="{{ site.url }}{{ self.canonical() }}">
+<meta property="og:image" content="{{ site.url }}{% block ogimage %}/static/img/og-default.svg{% endblock %}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..900&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+{% block head %}{% endblock %}
+</head>
+<body>
+<a class="skip" href="#main">Vai al contenuto</a>
+<div class="airmail" aria-hidden="true"></div>
+<header class="masthead">
+  <a class="brand" href="/" aria-label="{{ site.name }}, home">
+    <span class="brand-name">Oddpost</span>
+    <span class="postmark" aria-hidden="true">
+      <span class="postmark-top">Strano</span>
+      <span class="postmark-mid">ma</span>
+      <span class="postmark-bot">vero</span>
+    </span>
+  </a>
+  <nav class="nav" aria-label="Rubriche">
+    {% for r in rubriche.values() %}
+    <a href="/{{ r.slug }}/"{% if request_rubrica is defined and request_rubrica == r.slug %} aria-current="page"{% endif %}>{{ r.short }}</a>
+    {% endfor %}
+    <a href="/chi-siamo/">Chi siamo</a>
+  </nav>
+</header>
+
+<main id="main" class="page">
+{% block content %}{% endblock %}
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <p class="footer-brand">Oddpost — strano ma vero, ogni giorno.</p>
+    <p>Ogni storia ha la sua fonte, linkata nel pezzo. Se sbagliamo, correggiamo e lo diciamo.</p>
+    <nav aria-label="Pagine" class="footer-nav">
+      <a href="/chi-siamo/">Chi siamo</a>
+      <a href="/contatti/">Contatti</a>
+      <a href="/privacy/">Privacy</a>
+      <a href="/affiliazioni/">Affiliazioni</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+    <p class="footer-legal">© {{ now.year }} {{ site.name }}. Alcuni link sono di affiliazione: se compri, riceviamo una piccola commissione, tu non paghi nulla in più.</p>
+  </div>
+</footer>
+</body>
+</html>

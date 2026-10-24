@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+{% set lead = articles[0] if articles else None %}
+{% if lead %}
+<section class="lead">
+  <a class="lead-link" href="{{ lead.url }}">
+    <p class="kicker kicker-{{ lead.rubrica.slug }}">{{ lead.rubrica.short }}</p>
+    <h1 class="lead-title">{{ lead.title }}</h1>
+    <p class="lead-summary">{{ lead.summary }}</p>
+    <p class="meta">{{ lead.date_it }} · {{ lead.reading_minutes }} min di lettura</p>
+  </a>
+</section>
+{% endif %}
+
+{% if articles|length > 1 %}
+<section class="stream" aria-labelledby="ultime">
+  <h2 id="ultime" class="section-title">Le ultime</h2>
+  <ol class="story-list">
+    {% for a in articles[1:13] %}
+    <li class="story">
+      <a href="{{ a.url }}">
+        <p class="kicker kicker-{{ a.rubrica.slug }}">{{ a.rubrica.short }}</p>
+        <h3 class="story-title">{{ a.title }}</h3>
+        <p class="story-summary">{{ a.summary }}</p>
+        <p class="meta">{{ a.date_it }}</p>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}
+
+<section class="about-strip">
+  <p><strong>Oddpost</strong> racconta ogni giorno il lato più strano del mondo reale. Poche storie, tutte vere, tutte con la fonte. <a href="/chi-siamo/">Come lavoriamo</a>.</p>
+</section>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% set request_rubrica = rubrica.slug %}
+{% block description %}{{ rubrica.description }}{% endblock %}
+{% block canonical %}/{{ rubrica.slug }}/{% endblock %}
+{% block content %}
+<header class="page-head">
+  <h1 class="page-title">{{ rubrica.name }}</h1>
+  <p class="page-intro">{{ rubrica.description }}</p>
+</header>
+{% if articles %}
+<ol class="story-list story-list-plain">
+  {% for a in articles %}
+  <li class="story">
+    <a href="{{ a.url }}">
+      <h2 class="story-title">{{ a.title }}</h2>
+      <p class="story-summary">{{ a.summary }}</p>
+      <p class="meta">{{ a.date_it }}</p>
+    </a>
+  </li>
+  {% endfor %}
+</ol>
+{% else %}
+<p class="empty">Ancora niente qui. Le prime storie arrivano a breve.</p>
+{% endif %}
+{% endblock %}

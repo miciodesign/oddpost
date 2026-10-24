@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% set request_rubrica = article.rubrica.slug %}
+{% block description %}{{ article.summary }}{% endblock %}
+{% block canonical %}{{ article.url }}{% endblock %}
+{% block ogtype %}article{% endblock %}
+{% block ogimage %}{% if article.image %}{{ article.image }}{% else %}/static/img/og-default.svg{% endif %}{% endblock %}
+{% block head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": {{ article.title|tojson }},
+  "description": {{ article.summary|tojson }},
+  "datePublished": "{{ article.date_iso }}",
+  "inLanguage": "it",
+  "author": {"@type": "Organization", "name": "Oddpost"},
+  "publisher": {"@type": "Organization", "name": "Oddpost", "url": "{{ site.url }}"},
+  "mainEntityOfPage": "{{ site.url }}{{ article.url }}"
+}
+</script>
+{% endblock %}
+{% block content %}
+<article class="article">
+  <header class="article-head">
+    <p class="kicker kicker-{{ article.rubrica.slug }}"><a href="/{{ article.rubrica.slug }}/">{{ article.rubrica.name }}</a></p>
+    <h1 class="article-title">{{ article.title }}</h1>
+    <p class="article-summary">{{ article.summary }}</p>
+    <p class="meta">{{ article.date_it }} · {{ article.reading_minutes }} min di lettura</p>
+  </header>
+
+  {% if article.image %}
+  <figure class="article-figure">
+    <img src="{{ article.image }}" alt="{{ article.image_alt or '' }}" loading="lazy">
+    {% if article.image_credit %}<figcaption>{{ article.image_credit }}</figcaption>{% endif %}
+  </figure>
+  {% endif %}
+
+  <div class="article-body">
+    {{ article.content|safe }}
+  </div>
+
+  {% if article.affiliate_url %}
+  <aside class="buybox">
+    <p class="buybox-title">Esiste davvero, e si compra</p>
+    <p>{{ article.affiliate_note or "Se ti è venuta la curiosità, lo trovi qui." }}</p>
+    <a class="button" href="{{ article.affiliate_url }}" rel="nofollow sponsored noopener" target="_blank">Vedi il prezzo su Amazon</a>
+    <p class="buybox-legal">Link di affiliazione: se compri, Oddpost riceve una piccola commissione. Per te il prezzo non cambia.</p>
+  </aside>
+  {% endif %}
+
+  {% if article.source_url %}
+  <footer class="article-source">
+    <p>Fonte: <a href="{{ article.source_url }}" rel="noopener" target="_blank">{{ article.source_name or article.source_url }}</a>{% if article.source_date %}, {{ article.source_date }}{% endif %}. Abbiamo verificato la storia prima di raccontarla; se trovi un errore, <a href="/contatti/">scrivici</a>.</p>
+  </footer>
+  {% endif %}
+</article>
+
+{% if related %}
+<section class="related" aria-labelledby="related-title">
+  <h2 id="related-title" class="section-title">Altre dalla stessa rubrica</h2>
+  <ol class="story-list story-list-plain">
+    {% for a in related %}
+    <li class="story">
+      <a href="{{ a.url }}">
+        <h3 class="story-title">{{ a.title }}</h3>
+        <p class="meta">{{ a.date_it }}</p>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}
+{% endblock %}
