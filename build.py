@@ -142,6 +142,10 @@ def build() -> None:
         shutil.rmtree(OUT)
     OUT.mkdir()
     shutil.copytree(STATIC, OUT / "static")
+    # File che devono stare nella radice del sito (verifiche Google, ecc.)
+    for f in (ROOT / "root").glob("*"):
+        if f.is_file():
+            shutil.copy(f, OUT / f.name)
 
     env = Environment(
         loader=FileSystemLoader(TEMPLATES),
