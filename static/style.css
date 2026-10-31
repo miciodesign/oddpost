@@ -1,0 +1,204 @@
+/* Oddpost — foglio di stile
+   Idea: una busta di posta aerea. Fascia a strisce rosso/blu in cima,
+   timbro postale accanto alla testata, carta bianca, inchiostro blu notte. */
+
+:root {
+  --ink: #14213d;
+  --ink-soft: #3b4660;
+  --ash: #6b7280;
+  --mist: #eef0f4;
+  --line: #d9dde6;
+  --paper: #ffffff;
+  --red: #e63946;
+  --blue: #2457c5;
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --text: "Lora", Georgia, "Times New Roman", serif;
+  --measure: 38rem;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--text);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+a { color: inherit; text-decoration-color: var(--line); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { text-decoration-color: var(--red); }
+:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+img { max-width: 100%; height: auto; display: block; }
+
+.skip {
+  position: absolute; left: -999px; top: 0;
+  background: var(--ink); color: #fff; padding: .5rem 1rem; z-index: 10;
+}
+.skip:focus { left: 1rem; top: 1rem; }
+
+/* Fascia posta aerea */
+.airmail {
+  height: 10px;
+  background: repeating-linear-gradient(
+    -45deg,
+    var(--red) 0 14px,
+    var(--paper) 14px 20px,
+    var(--blue) 20px 34px,
+    var(--paper) 34px 40px
+  );
+}
+
+/* Testata */
+.masthead {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem 2rem;
+  border-bottom: 2px solid var(--ink);
+}
+.brand {
+  display: inline-flex; align-items: center; gap: .9rem;
+  text-decoration: none;
+}
+.brand-name {
+  font-family: var(--display);
+  font-weight: 900;
+  font-stretch: 80%;
+  font-size: clamp(2.6rem, 8vw, 4.2rem);
+  letter-spacing: -0.03em;
+  line-height: .9;
+  color: var(--ink);
+}
+.postmark {
+  width: 4.2rem; height: 4.2rem;
+  border: 2px solid var(--red);
+  border-radius: 50%;
+  color: var(--red);
+  font-family: var(--display);
+  font-weight: 700;
+  font-stretch: 85%;
+  font-size: .72rem;
+  line-height: 1.05;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  transform: rotate(-12deg);
+  box-shadow: inset 0 0 0 3px var(--paper), inset 0 0 0 4px var(--red);
+}
+.postmark-mid { font-weight: 500; font-style: italic; font-family: var(--text); font-size: .7rem; }
+
+.nav { display: flex; gap: 1.25rem; font-family: var(--display); font-weight: 600; font-size: 1rem; }
+.nav a { text-decoration: none; padding-bottom: .35rem; border-bottom: 3px solid transparent; }
+.nav a:hover, .nav a[aria-current="page"] { border-bottom-color: var(--red); }
+
+/* Pagina */
+.page { max-width: 64rem; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+
+.kicker {
+  font-family: var(--display); font-weight: 700; font-size: .9rem;
+  margin: 0 0 .4rem; color: var(--blue);
+}
+.kicker-oggetti { color: var(--red); }
+.kicker a { text-decoration: none; }
+.meta { font-family: var(--display); font-weight: 500; font-size: .85rem; color: var(--ash); margin: .5rem 0 0; }
+
+/* Storia di apertura */
+.lead { padding: .5rem 0 2rem; border-bottom: 1px solid var(--line); }
+.lead-link { text-decoration: none; display: block; max-width: 52rem; }
+.lead-title {
+  font-family: var(--display); font-weight: 800; font-stretch: 88%;
+  font-size: clamp(1.9rem, 5.5vw, 3.4rem);
+  line-height: 1.02; letter-spacing: -0.02em; margin: 0 0 .75rem;
+}
+.lead-link:hover .lead-title { text-decoration: underline; text-decoration-color: var(--red); text-decoration-thickness: 3px; text-underline-offset: 6px; }
+.lead-summary { font-size: 1.2rem; line-height: 1.5; margin: 0; max-width: var(--measure); color: var(--ink-soft); }
+
+/* Elenco storie */
+.section-title {
+  font-family: var(--display); font-weight: 700; font-size: 1rem;
+  margin: 2rem 0 .5rem; padding-bottom: .4rem; border-bottom: 2px solid var(--ink);
+}
+.story-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr; }
+.story { border-bottom: 1px solid var(--line); }
+.story a { display: block; text-decoration: none; padding: 1.1rem 0; }
+.story-title {
+  font-family: var(--display); font-weight: 700; font-stretch: 92%;
+  font-size: 1.35rem; line-height: 1.15; letter-spacing: -0.01em; margin: 0 0 .35rem;
+}
+.story a:hover .story-title { text-decoration: underline; text-decoration-color: var(--red); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.story-summary { margin: 0; color: var(--ink-soft); max-width: var(--measure); }
+
+@media (min-width: 46rem) {
+  .story-list { grid-template-columns: 1fr 1fr; column-gap: 2.5rem; }
+  .story-list-plain { grid-template-columns: 1fr; }
+}
+
+.about-strip { margin-top: 2.5rem; padding: 1.25rem 1.5rem; background: var(--mist); border-left: 6px solid var(--blue); }
+.about-strip p { margin: 0; max-width: var(--measure); }
+
+.page-head { padding: .5rem 0 1rem; border-bottom: 2px solid var(--ink); }
+.page-title { font-family: var(--display); font-weight: 800; font-stretch: 88%; font-size: clamp(1.8rem, 5vw, 2.8rem); line-height: 1.05; margin: 0 0 .5rem; letter-spacing: -0.02em; }
+.page-intro { margin: 0; color: var(--ink-soft); max-width: var(--measure); }
+.empty { padding: 2rem 0; color: var(--ash); }
+
+/* Articolo */
+.article { max-width: 44rem; margin: 0 auto; }
+.article-head { padding: .5rem 0 1.5rem; }
+.article-title {
+  font-family: var(--display); font-weight: 800; font-stretch: 88%;
+  font-size: clamp(1.9rem, 5.5vw, 3rem); line-height: 1.04; letter-spacing: -0.02em; margin: 0 0 .75rem;
+}
+.article-summary { font-size: 1.2rem; line-height: 1.5; color: var(--ink-soft); margin: 0; max-width: var(--measure); }
+.article-figure { margin: 0 0 1.5rem; }
+.article-figure figcaption { font-family: var(--display); font-size: .8rem; color: var(--ash); margin-top: .4rem; }
+.article-body { max-width: var(--measure); font-size: 1.125rem; line-height: 1.7; }
+.article-body > p:first-child::first-letter {
+  font-family: var(--display); font-weight: 900; font-size: 3.4em; line-height: .8;
+  float: left; padding: .1em .12em 0 0; color: var(--red);
+}
+.article-body h2 { font-family: var(--display); font-weight: 700; font-size: 1.4rem; line-height: 1.2; margin: 2rem 0 .6rem; }
+.article-body h3 { font-family: var(--display); font-weight: 700; font-size: 1.15rem; margin: 1.5rem 0 .5rem; }
+.article-body blockquote { margin: 1.5rem 0; padding: .25rem 0 .25rem 1.25rem; border-left: 4px solid var(--red); font-style: italic; color: var(--ink-soft); }
+.article-body ul, .article-body ol { padding-left: 1.4rem; }
+.article-body li { margin: .3rem 0; }
+.article-body a { text-decoration-color: var(--blue); }
+
+.buybox {
+  margin: 2rem 0 1rem; padding: 1.25rem 1.5rem;
+  border: 2px solid var(--ink); border-radius: 2px;
+  background: var(--paper); max-width: var(--measure);
+  position: relative;
+}
+.buybox::before {
+  content: ""; position: absolute; inset: 0; top: -2px; height: 8px;
+  background: repeating-linear-gradient(-45deg, var(--red) 0 10px, var(--paper) 10px 14px, var(--blue) 14px 24px, var(--paper) 24px 28px);
+}
+.buybox-title { font-family: var(--display); font-weight: 800; font-size: 1.15rem; margin: .5rem 0 .4rem; }
+.buybox p { margin: 0 0 .75rem; }
+.button {
+  display: inline-block; background: var(--ink); color: #fff; text-decoration: none;
+  font-family: var(--display); font-weight: 700; padding: .7rem 1.2rem; border-radius: 2px;
+}
+.button:hover { background: var(--red); }
+.buybox-legal { font-family: var(--display); font-size: .8rem; color: var(--ash); margin: .9rem 0 0 !important; }
+
+.article-source { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--line); font-family: var(--display); font-size: .9rem; color: var(--ink-soft); max-width: var(--measure); }
+.article-source p { margin: 0; }
+
+.related { max-width: 44rem; margin: 2rem auto 0; }
+
+/* Piede */
+.footer { border-top: 2px solid var(--ink); margin-top: 2rem; }
+.footer-inner { max-width: 64rem; margin: 0 auto; padding: 1.5rem 1rem 2.5rem; font-family: var(--display); font-size: .9rem; color: var(--ink-soft); }
+.footer-inner p { margin: 0 0 .6rem; max-width: var(--measure); }
+.footer-brand { font-weight: 700; color: var(--ink); }
+.footer-nav { display: flex; flex-wrap: wrap; gap: 1rem 1.5rem; margin: 1rem 0; }
+.footer-nav a { text-decoration: none; font-weight: 600; }
+.footer-nav a:hover { color: var(--red); }
+.footer-legal { font-size: .8rem; color: var(--ash); }
+
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+@media print { .airmail, .nav, .footer-nav, .buybox { display: none; } }
