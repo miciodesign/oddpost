@@ -6,6 +6,8 @@ summary: Al Politecnico di Zurigo hanno preso una mano robotica normale, le hann
 source_name: IEEE Spectrum
 source_url: https://spectrum.ieee.org/walking-robotic-hand
 source_date: 8 ottobre 2026
+tema: scienza
+seo_title: Mano robot che cammina sulle dita: il progetto ETH Zurigo
 ---
 Una mano senza braccio che se ne va in giro sulle punte delle dita, da sola, sull'erba e sulla ghiaia. Non è una scena della famiglia Addams: è un esperimento del **Soft Robotics Lab del Politecnico federale di Zurigo (ETH)**, che ha fatto il giro dei siti di tecnologia e questa settimana è arrivato anche nelle rubriche di notizie strane.
 

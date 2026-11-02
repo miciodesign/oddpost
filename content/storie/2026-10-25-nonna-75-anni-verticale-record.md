@@ -6,6 +6,8 @@ summary: Esther Fischer, pensionata di Perth, è entrata nel Guinness dei Primat
 source_name: ABC News (Australia)
 source_url: https://www.abc.net.au/news/2026-10-24/perth-woman-sets-record-oldest-person-to-do-handstand/107301504
 source_date: 24 ottobre 2026
+tema: record
+seo_title: Persona più anziana a fare la verticale: record Guinness a 75 anni
 ---
 Il regolamento del Guinness dei Primati chiedeva una verticale tenuta per almeno 15 secondi, senza appoggi e senza aiuti. Esther Fischer, 75 anni, di Perth, in Australia, ne ha tenuti **55**. Per darsi un margine, dice lei. Il risultato è che adesso è ufficialmente la persona più anziana al mondo ad aver fatto una verticale certificata.
 

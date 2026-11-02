@@ -6,6 +6,8 @@ summary: A Juneau, in Alaska, un orso nero è salito su un'auto lasciata aperta,
 source_name: Alaska's News Source (KTUU)
 source_url: https://www.alaskasnewssource.com/2026/10/27/bear-locks-itself-subaru-destroys-interior-before-police-free-it/
 source_date: 27 ottobre 2026
+tema: animali
+seo_title: Orso chiuso in una Subaru a Juneau, Alaska: ha smontato l'interno
 ---
 Erano le 00:30 di lunedì 26 ottobre, a Juneau, la capitale dell'Alaska, quando un vicino ha sentito un clacson suonare senza sosta. Si è affacciato e ha visto chi lo premeva: un **orso nero**, seduto sul clacson di una Subaru parcheggiata. Ha chiamato il 911. Nel frattempo l'orso, entrato da un'auto lasciata aperta e ritrovatosi con la portiera chiusa, aveva già iniziato a ridisegnare l'abitacolo.
 

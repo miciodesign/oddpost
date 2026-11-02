@@ -6,6 +6,8 @@ summary: Allo zoo di Mykolaiv, in Ucraina, una tigrotta di quattro mesi e mezzo 
 source_name: Ukrinform
 source_url: https://www.ukrinform.net/amp/rubric-emergencies/4178023-fourandahalfmonthold-tiger-cub-escapes-from-enclosure-at-mykolaiv-zoo.html
 source_date: 26 ottobre 2026
+tema: animali
+seo_title: Cucciola di tigre scappata dallo zoo di Mykolaiv
 ---
 Nella notte tra sabato 24 e domenica 25 ottobre, allo **zoo di Mykolaiv**, nel sud dell'Ucraina, una cucciola di tigre di **quattro mesi e mezzo** ha deciso che il recinto di quarantena le stava stretto. Letteralmente: come ha spiegato il direttore **Volodymyr Topchii** all'agenzia Ukrinform, la piccola, "grande più o meno come uno spaniel adulto", non ha trovato un buco nella rete, ma si è infilata **nello spazio tra le sbarre** vicino al soffitto, dove un animale adulto non sarebbe mai passato. Lei sì.
 

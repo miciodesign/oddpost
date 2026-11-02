@@ -48,6 +48,14 @@ RUBRICHE = {
     },
 }
 
+TEMI = {
+    "animali": {"slug": "animali", "name": "Animali", "description": "Bestie che scappano, record a quattro zampe, specie che nessuno aveva mai visto."},
+    "scienza": {"slug": "scienza", "name": "Scienza strana", "description": "Scoperte, studi e fenomeni che sembrano inventati e invece sono pubblicati."},
+    "record": {"slug": "record", "name": "Record assurdi", "description": "Primati mondiali a cui nessuno aveva pensato, certificati e tutto."},
+    "mondo": {"slug": "mondo", "name": "Storie dal mondo", "description": "Fatti bizzarri successi davvero, da qualche parte, a qualcuno."},
+    "oggetti": {"slug": "oggetti", "name": "Oggetti assurdi", "description": "Cose che qualcuno ha inventato, prodotto e messo in vendita sul serio."},
+}
+
 MESI = [
     "gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno",
     "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre",
@@ -104,9 +112,17 @@ def load_articles() -> list[dict]:
             content_html = md.convert(body)
             date = dt.date.fromisoformat(meta["date"])
             slug = meta.get("slug") or slugify(meta["title"])
+            tema = meta.get("tema", "oggetti" if rubrica == "oggetti" else "mondo").strip().lower()
+            if tema not in TEMI:
+                tema = "mondo"
+            in_breve = {k: meta[f"in_breve_{k}"] for k in ("dove", "cosa", "perche") if meta.get(f"in_breve_{k}")}
             art = {
                 **meta,
                 "rubrica": RUBRICHE[rubrica],
+                "tema": TEMI[tema],
+                "in_breve": in_breve,
+                "seo_title": meta.get("seo_title") or meta["title"],
+                "meta_description": meta.get("meta_description") or meta.get("summary", ""),
                 "date": date,
                 "date_it": data_italiana(date),
                 "date_iso": date.isoformat(),
@@ -153,11 +169,12 @@ def build() -> None:
         trim_blocks=True,
         lstrip_blocks=True,
     )
-    env.globals.update(site=SITE, rubriche=RUBRICHE, now=dt.date.today())
+    env.globals.update(site=SITE, rubriche=RUBRICHE, temi=TEMI, now=dt.date.today())
 
     articles = load_articles()
     pages = load_pages()
     by_rubrica = {k: [a for a in articles if a["rubrica"]["slug"] == k] for k in RUBRICHE}
+    by_tema = {k: [a for a in articles if a["tema"]["slug"] == k] for k in TEMI}
     nav_pages = [p for p in pages if p.get("nav", "").lower() == "true"]
     env.globals["nav_pages"] = nav_pages
 
@@ -170,12 +187,21 @@ def build() -> None:
         write(OUT / slug / "index.html", env.get_template("rubrica.html").render(
             rubrica=rub, articles=by_rubrica[slug], title=rub["name"]))
 
+    # Temi
+    for slug, tema in TEMI.items():
+        write(OUT / "tema" / slug / "index.html", env.get_template("tema.html").render(
+            tema=tema, articles=by_tema[slug], title=tema["name"]))
+
     # Articoli
     tpl = env.get_template("articolo.html")
     for i, art in enumerate(articles):
-        related = [a for a in by_rubrica[art["rubrica"]["slug"]] if a is not art][:3]
+        same_tema = [a for a in by_tema[art["tema"]["slug"]] if a is not art]
+        # Correlate: prima dello stesso tema, poi le più recenti di altri temi
+        related = same_tema[:3]
+        if len(related) < 3:
+            related += [a for a in articles if a is not art and a not in related][: 3 - len(related)]
         write(OUT / art["url"].strip("/") / "index.html",
-              tpl.render(article=art, related=related, title=art["title"]))
+              tpl.render(article=art, related=related, title=art["seo_title"]))
 
     # Pagine fisse
     tpl = env.get_template("pagina.html")
@@ -189,7 +215,7 @@ def build() -> None:
     write(OUT / "feed.xml", env.get_template("feed.xml").render(articles=articles[:30]))
 
     # Sitemap + robots
-    urls = ["/"] + [f"/{s}/" for s in RUBRICHE] + [a["url"] for a in articles] + [p["url"] for p in pages]
+    urls = ["/"] + [f"/{s}/" for s in RUBRICHE] + [f"/tema/{s}/" for s in TEMI] + [a["url"] for a in articles] + [p["url"] for p in pages]
     sitemap = ['<?xml version="1.0" encoding="UTF-8"?>',
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     sitemap += [f"  <url><loc>{html.escape(SITE['url'] + u)}</loc></url>" for u in urls]

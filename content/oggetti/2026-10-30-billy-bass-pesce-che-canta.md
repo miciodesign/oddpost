@@ -7,6 +7,7 @@ source_name: Wikipedia (Big Mouth Billy Bass)
 source_url: https://en.wikipedia.org/wiki/Big_Mouth_Billy_Bass
 affiliate_url: https://www.amazon.it/s?k=big+mouth+billy+bass&tag=oddpost-21
 affiliate_note: Esiste nella versione classica e in quella che parla con Alexa. In entrambe, la coda si muove.
+tema: oggetti
 ---
 Da lontano sembra un trofeo di pesca: un persico trota di gomma montato su una targa di legno, di quelli che si appendono in taverna. Poi passi davanti, o premi il tasto, e il pesce **gira la testa verso di te, spalanca la bocca e comincia a cantare** "Don't Worry, Be Happy" di Bobby McFerrin, agitando la coda a tempo. Si chiama Big Mouth Billy Bass, ed è uno degli oggetti più inutili e più famosi degli ultimi trent'anni.
 

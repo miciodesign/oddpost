@@ -6,6 +6,8 @@ summary: Uno studio dell'Università di Bonn pubblicato su PNAS ha filmato per n
 source_name: ABC News (Australia)
 source_url: https://www.abc.net.au/news/science/2026-10-27/jumping-spider-rem-sleep/107309370
 source_date: 27 ottobre 2026
+tema: scienza
+seo_title: I ragni dormono e hanno la fase REM: lo studio su PNAS
 ---
 Un ragno che dorme assomiglia a un ragno fermo, e capire la differenza non è facile. Un gruppo dell'Università di Bonn, con l'ecologa comportamentale Daniela Rößler, ha filmato per notti intere, con telecamere a infrarossi, un ragno saltatore australiano, *Portia fimbriata*, e ha scoperto che dorme sul serio, in **due fasi distinte**. Lo studio è uscito il 27 ottobre su *PNAS*, la rivista dell'Accademia delle scienze americana.
 

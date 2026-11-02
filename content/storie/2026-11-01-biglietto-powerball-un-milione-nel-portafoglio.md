@@ -6,6 +6,8 @@ summary: Michael Vander Lugt, 54 anni, del Michigan, aveva in tasca un biglietto
 source_name: Detroit Free Press (via Yahoo)
 source_url: https://www.yahoo.com/news/articles/michigan-man-finds-1-million-115924969.html
 source_date: 30 ottobre 2026
+tema: mondo
+seo_title: Biglietto Powerball da un milione dimenticato nel portafoglio per due mesi
 ---
 Per quasi due mesi **Michael Vander Lugt**, 54 anni, è stato milionario senza saperlo. Il biglietto del Powerball che aveva comprato per l'estrazione dell'**8 agosto** era rimasto nel portafoglio, infilato tra altri biglietti, mentre lui faceva la spesa, pagava le bollette e in generale viveva la vita di una persona che non ha un milione di dollari. Lo ha raccontato la Michigan Lottery, che ha annunciato la vincita il 28 ottobre.
 

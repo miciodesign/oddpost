@@ -6,6 +6,8 @@ summary: Sgiath, labrador nera di sei anni delle Highlands scozzesi, è il primo
 source_name: Smithsonian Magazine
 source_url: https://www.smithsonianmag.com/smart-news/this-dog-learned-to-sniff-out-a-slimy-marine-invader-called-sea-vomit-a-skill-that-earned-her-the-animal-of-the-year-award-180989706/
 source_date: 20 ottobre 2026
+tema: animali
+seo_title: Il cane che fiuta l'ambra grigia eletto animale dell'anno
 ---
 Si chiama Sgiath, si pronuncia più o meno "Skì-a", ha sei anni ed è una labrador nera delle Highlands scozzesi. Il 15 ottobre, agli Animal Action Awards dell'International Fund for Animal Welfare (IFAW), è stata nominata **animale dell'anno**. Il merito: è, per quanto si sa, il primo cane al mondo addestrato a fiutare il *Didemnum vexillum*, un organismo marino invasivo che in inglese tutti chiamano con un nome poco elegante ma efficace, *sea vomit*, cioè vomito di mare.
 

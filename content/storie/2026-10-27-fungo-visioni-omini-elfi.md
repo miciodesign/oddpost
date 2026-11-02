@@ -6,6 +6,12 @@ summary: Da quasi un secolo, in tre regioni del mondo lontane tra loro, c'è chi
 source_name: University of Utah
 source_url: https://attheu.utah.edu/facultystaff/scientists-identify-mushroom-behind-tiny-people-hallucinations/
 source_date: 6 agosto 2026
+tema: scienza
+seo_title: Lanmaoa asiatica: il fungo che fa vedere omini vestiti da elfi
+meta_description: Il fungo Lanmaoa asiatica provoca visioni di piccoli omini vestiti da elfi in Cina, Giappone e Messico. Due ricercatori lo hanno identificato con il DNA, ma non contiene allucinogeni noti.
+in_breve_dove: Cina (Yunnan), Giappone e Messico, dove è mangiato da sempre
+in_breve_cosa: Dopo averlo mangiato, molte persone vedono sfilare in casa folle di omini alti pochi centimetri
+in_breve_perche: Il fungo è stato identificato (Lanmaoa asiatica), ma non contiene nessuna sostanza allucinogena conosciuta
 ---
 Si chiamano «allucinazioni lillipuziane», dal nome degli abitanti minuscoli dei *Viaggi di Gulliver*, e sono esattamente quello che promettono: chi le ha descrive **decine o centinaia di figure umane alte dai 3 ai 30 centimetri**, vivide, solide, che camminano per la stanza aggirando gli ostacoli e ogni tanto cadono giù dal tavolo. Nove persone su dieci dicono che sembrano elfi, pagliacci o fate, con vestiti dai colori accesi. Un testimone ha raccontato di averli visti saltare dal cucchiaio nella zuppa e mettersi a nuotare.
 

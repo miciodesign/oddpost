@@ -6,6 +6,8 @@ summary: All'autodromo di Austin, per il Gran Premio di Formula 1, hanno inaugur
 source_name: CBS Austin
 source_url: https://cbsaustin.com/news/local/cota-unveils-worlds-largest-cowboy-hat-ahead-of-us-grand-prix
 source_date: 19 ottobre 2026
+tema: record
+seo_title: Cappello da cowboy più grande del mondo: 14 metri in Texas (Guinness)
 ---
 Lunedì 19 ottobre, al Circuit of The Americas di Austin, in Texas, hanno tolto il telo da un cappello da cowboy largo **13 metri**, lungo **14** e alto **5**, piloni di sostegno esclusi. È la riproduzione fedele, ma in scala da gigante, del modello "Cattleman" di Tecovas, un marchio texano di stivali e abbigliamento western. Secondo le due aziende, una squadra del Guinness World Records era presente all'inaugurazione e ha certificato sul posto il primato di **cappello da cowboy più grande del mondo**.
 

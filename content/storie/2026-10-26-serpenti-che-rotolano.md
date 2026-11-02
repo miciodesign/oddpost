@@ -6,6 +6,8 @@ summary: Un serpentello del Borneo lungo meno di una spanna, se lo spaventi, si 
 source_name: Smithsonian Magazine
 source_url: https://www.smithsonianmag.com/smart-news/these-snakes-can-cartwheel-away-from-danger-scientists-just-uncovered-how-the-slithering-creatures-perform-their-acrobatic-rolls-180989720/
 source_date: 21 ottobre 2026
+tema: scienza
+seo_title: Serpenti che rotolano: i Pseudorabdion del Borneo fanno la ruota (studio)
 ---
 Se vi chiedono qual è il modo più veloce per un serpente di spostarsi, la risposta ovvia è: strisciando. Per i serpenti nani delle canne del Borneo, invece, la risposta è: facendo la ruota. Rotolando su se stessi come una ciambella, questi animaletti raggiungono una velocità tra 1,7 e 3,7 metri al secondo, cioè fino a **13 chilometri all'ora**: circa quattro volte il loro massimo quando serpeggiano normalmente. Lo dice uno studio pubblicato il 19 ottobre su *Current Biology* da un gruppo giapponese guidato da Yosuke Kojima, dell'Università Toho.
 

@@ -6,6 +6,8 @@ summary: Metallico, bruciacchiato, largo come un'automobile. Lo sceriffo dice ch
 source_name: AccuWeather
 source_url: https://www.accuweather.com/en/space-news/mysterious-11-foot-object-found-in-minnesota-cornfield-may-have-fallen-from-space/1949249
 source_date: ottobre 2026
+tema: scienza
+seo_title: Oggetto spaziale caduto in un campo di mais in Minnesota: cos'è
 ---
 Stevens County, Minnesota, 14 ottobre. Un agricoltore sta raccogliendo il mais quando la mietitrebbia si ritrova davanti qualcosa che nel campo non ci doveva essere: un oggetto metallico, annerito come se fosse passato attraverso un forno, largo circa **3,3 metri**. Chiama lo sceriffo. Lo sceriffo arriva, guarda, e scrive nel comunicato ufficiale che si tratta, "presumibilmente", di un oggetto spaziale.
 

@@ -6,6 +6,8 @@ summary: DonnaJean Wilde, ex vicepreside canadese, ha battuto il suo stesso reco
 source_name: Daily Hive
 source_url: https://dailyhive.com/canada/canadian-world-record-five-hour-plank
 source_date: ottobre 2026
+tema: record
+seo_title: Record mondiale di plank: DonnaJean Wilde, 61 anni, cinque ore
 ---
 Il plank è quell'esercizio in cui ti appoggi sugli avambracci e sulle punte dei piedi, con il corpo dritto come un'asse, e resisti. Un minuto brucia. Due minuti fanno tremare. DonnaJean Wilde, 61 anni, di Magrath, in Alberta, l'ha tenuto per **cinque ore** il 5 ottobre, agli Huntsman World Senior Games, e ha battuto il record mondiale femminile. Che era già suo.
 

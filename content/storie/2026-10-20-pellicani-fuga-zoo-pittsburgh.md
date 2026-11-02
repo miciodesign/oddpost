@@ -6,6 +6,7 @@ summary: Felicity e Joey non avrebbero dovuto poter volare. Poi è arrivata una 
 source_name: WPXI Pittsburgh
 source_url: https://www.wpxi.com/news/local/pittsburgh-zoo-ceo-promises-changes-after-pelican-escape/KXE4IFD26VBOXJEVGOC3W74DTI/
 source_date: ottobre 2026
+tema: animali
 ---
 I pellicani Felicity e Joey vivono allo zoo di Pittsburgh, in Pennsylvania, nella zona dei pinguini, su una collinetta. Hanno le ali tagliate, cioè le penne accorciate in modo che non possano prendere quota: non dovrebbero riuscire a volare nemmeno volendo. Sabato ci ha pensato il vento.
 

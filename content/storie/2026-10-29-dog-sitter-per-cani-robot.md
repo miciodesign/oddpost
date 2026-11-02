@@ -6,6 +6,8 @@ summary: Una startup di San Francisco ha pubblicato un annuncio di lavoro per "d
 source_name: Digital Trends
 source_url: https://www.digitaltrends.com/cool-tech/robot-dog-walkers-dimensional-ai-human-help/
 source_date: 27 ottobre 2026
+tema: scienza
+seo_title: Dog walker per cani robot a San Francisco: l'annuncio di lavoro
 ---
 I robot dovevano servire a risparmiarci la fatica. A San Francisco, per ora, succede il contrario: una startup di nome Dimensional ha pubblicato un annuncio per assumere persone che portino a spasso i suoi **cani robot**. Paga: 20 dollari l'ora. Esperienza richiesta: nessuna. Durata: dalle quattro alle sei ore di passeggiata per le vie della città. Requisito fisico, riportato dal New York Times: essere in grado di riportare in ufficio, in braccio, un robot da circa 15 chili nel caso si surriscaldi durante il giro. Il che, per una macchina nata per far risparmiare lavoro, è un dettaglio un po' imbarazzante.
 

@@ -6,6 +6,8 @@ summary: Due ricercatori australiani hanno scoperto che tre pesciolini conservat
 source_name: ScienceDaily (da The Conversation)
 source_url: https://www.sciencedaily.com/releases/2026/10/261029072119.htm
 source_date: 29 ottobre 2026
+tema: animali
+seo_title: Sea muppet: i pesci simili a cavallucci marini filmati vivi per la prima volta
 ---
 Hanno la testa da cavallo, la coda arricciata per aggrapparsi e, nei maschi, la tasca sul ventre dove covare le uova. Solo che cavallucci marini non sono. Due ricercatori australiani, **Graham Short e David Harasti**, hanno analizzato tre specie di pesciolini custodite nei musei del loro Paese e hanno concluso che appartengono a un ramo evolutivo separato, un nuovo genere battezzato ***Australyichthys***, "pesce del sud". Il nome comune che hanno scelto è più spiritoso: **sea muppet**, i pupazzi di mare. Lo studio è uscito sul *Journal of Lost Species*.
 

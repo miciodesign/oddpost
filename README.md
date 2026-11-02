@@ -13,6 +13,11 @@ il generatore `build.py` li trasforma nel sito pronto in `public/`.
 
 Un articolo con `draft: true` non viene pubblicato.
 
+Campi del front matter oltre a quelli base: `tema` (animali, scienza, record, mondo, oggetti; genera le pagine
+`/tema/<slug>/` e sceglie le storie correlate), `seo_title` (title per Google, con il nome ricercabile),
+`meta_description` (descrizione per Google), `in_breve_dove` / `in_breve_cosa` / `in_breve_perche`
+(il riquadro "in breve" in cima al pezzo). Il modello li spiega tutti.
+
 ## Struttura
 
 - `content/storie/` — rubrica "Storie strane ma vere"

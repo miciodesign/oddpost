@@ -7,6 +7,7 @@ source_name: Know Your Meme
 source_url: https://knowyourmeme.com/memes/banana-slicer-reviews
 affiliate_url: https://www.amazon.it/s?k=affetta+banane+hutzler&tag=oddpost-21
 affiliate_note: Il modello originale si chiama Hutzler 571. Se lo compri, sappi che la gente si aspetterà una recensione all'altezza.
+tema: oggetti
 ---
 Partiamo dal prodotto, che è la parte meno interessante. L'Hutzler 571 è un affettabanane: una sagoma di plastica gialla, curva come una banana, con una serie di lame parallele. Lo premi sulla banana sbucciata e ottieni delle rondelle tutte uguali. Fine. Costa quanto un caffè e una brioche.
 

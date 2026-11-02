@@ -1,6 +1,6 @@
 {% extends "base.html" %}
-{% set request_rubrica = article.rubrica.slug %}
-{% block description %}{{ article.summary }}{% endblock %}
+{% set request_tema = article.tema.slug %}
+{% block description %}{{ article.meta_description }}{% endblock %}
 {% block canonical %}{{ article.url }}{% endblock %}
 {% block ogtype %}article{% endblock %}
 {% block ogimage %}{% if article.image %}{{ article.image }}{% else %}/static/img/og-default.svg{% endif %}{% endblock %}
@@ -22,7 +22,7 @@
 {% block content %}
 <article class="article">
   <header class="article-head">
-    <p class="kicker kicker-{{ article.rubrica.slug }}"><a href="/{{ article.rubrica.slug }}/">{{ article.rubrica.name }}</a></p>
+    <p class="kicker kicker-{{ article.rubrica.slug }}"><a href="/tema/{{ article.tema.slug }}/">{{ article.tema.name }}</a></p>
     <h1 class="article-title">{{ article.title }}</h1>
     <p class="article-summary">{{ article.summary }}</p>
     <p class="meta">{{ article.date_it }} · {{ article.reading_minutes }} min di lettura</p>
@@ -33,6 +33,14 @@
     <img src="{{ article.image }}" alt="{{ article.image_alt or '' }}" loading="lazy">
     {% if article.image_credit %}<figcaption>{{ article.image_credit }}</figcaption>{% endif %}
   </figure>
+  {% endif %}
+
+  {% if article.in_breve %}
+  <dl class="in-breve">
+    {% if article.in_breve.dove %}<div><dt>Dove</dt><dd>{{ article.in_breve.dove }}</dd></div>{% endif %}
+    {% if article.in_breve.cosa %}<div><dt>Cosa</dt><dd>{{ article.in_breve.cosa }}</dd></div>{% endif %}
+    {% if article.in_breve.perche %}<div><dt>Perché è strano</dt><dd>{{ article.in_breve.perche }}</dd></div>{% endif %}
+  </dl>
   {% endif %}
 
   <div class="article-body">
@@ -57,13 +65,14 @@
 
 {% if related %}
 <section class="related" aria-labelledby="related-title">
-  <h2 id="related-title" class="section-title">Altre dalla stessa rubrica</h2>
+  <h2 id="related-title" class="section-title">Storie che c'entrano</h2>
   <ol class="story-list story-list-plain">
     {% for a in related %}
     <li class="story">
       <a href="{{ a.url }}">
+        <p class="kicker kicker-{{ a.rubrica.slug }}">{{ a.tema.name }}</p>
         <h3 class="story-title">{{ a.title }}</h3>
-        <p class="meta">{{ a.date_it }}</p>
+        <p class="story-summary">{{ a.summary }}</p>
       </a>
     </li>
     {% endfor %}

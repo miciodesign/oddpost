@@ -6,6 +6,8 @@ summary: Madden Shelley, ginnasta americano fermato dagli infortuni, ha trovato 
 source_name: Guinness World Records
 source_url: https://www.guinnessworldrecords.com/news/2026/10/american-gymnast-knuckles-down-to-nail-record-breaking-handstand
 source_date: 27 ottobre 2026
+tema: record
+seo_title: Record di verticale sulle nocche: 1 minuto e 23 secondi (Guinness)
 ---
 Una verticale normale, con i palmi a terra, è già una cosa che la maggior parte di noi tiene per il tempo di una foto. Madden Shelley, ginnasta americano, l'ha tenuta per **1 minuto e 23 secondi** appoggiato soltanto sulle **nocche**, con le mani chiuse a pugno e tutto il peso del corpo scaricato lì. È successo in Tennessee. Il Guinness World Records ha appena raccontato la storia e ufficializzato il titolo: la verticale sulle nocche più lunga del mondo, categoria maschile. Il tentativo risale all'11 settembre dell'anno scorso.
 

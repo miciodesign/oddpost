@@ -6,6 +6,8 @@ summary: A Città del Guatemala un gruppo di cuochi ha assemblato un fiambre da 
 source_name: UPI (via Yahoo)
 source_url: https://www.yahoo.com/lifestyle/articles/chefs-prepare-worlds-largest-fiambre-164338670.html
 source_date: 29 ottobre 2026
+tema: record
+seo_title: Fiambre da record in Guatemala: l'insalata da due tonnellate
 ---
 Oggi, 1° novembre, in Guatemala si mangia il fiambre: un'insalata fredda gigantesca, con decine di ingredienti, che si prepara una volta l'anno per il giorno di Ognissanti e si porta anche al cimitero, per mangiarla accanto ai parenti che non ci sono più. Quest'anno qualcuno ha deciso di prendere la parola "gigantesca" alla lettera: a **Città del Guatemala** un gruppo di cuochi ne ha preparato uno da **4.325,9 libbre, cioè circa 1.962 chili**, e un giudice del Guinness World Records lo ha pesato, esaminato e certificato come il fiambre più grande del mondo.
 

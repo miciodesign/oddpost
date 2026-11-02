@@ -6,6 +6,8 @@ summary: Jenny, una cavalla dell'Ohio, ha battuto un record che resisteva da 19 
 source_name: Guinness World Records
 source_url: https://www.guinnessworldrecords.com/news/2026/9/no-tall-tale-horse-with-magnificent-tail-swishes-aside-rival-record-of-19-years
 source_date: settembre 2026
+tema: animali
+seo_title: Coda di cavallo più lunga del mondo: Jenny, 4,12 metri (Guinness)
 ---
 Si chiama Jenny, anche se all'anagrafe equina risulta come Mountjoy's Ice Princess. È una cavalla American Saddlebred, vive in una scuola di equitazione a Spring Valley, in Ohio, e ha la coda più lunga del mondo: **412,62 centimetri**, certificati dal Guinness World Records il 25 luglio. Il record precedente, 381 centimetri, era del 2007 e sembrava destinato a durare per sempre.
 

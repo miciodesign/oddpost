@@ -5,6 +5,16 @@ title: Titolo della storia, che incuriosisce senza mentire
 date: 2026-01-01
 slug: titolo-breve-per-l-indirizzo
 summary: Una o due frasi che riassumono la storia e fanno venire voglia di leggerla.
+# Tema (obbligatorio): animali | scienza | record | mondo | oggetti
+tema: mondo
+# Title per Google (50-65 caratteri): soggetto + nome ricercabile, niente domande né suspense.
+seo_title: Nome della cosa: cosa è successo, dove (ente o record)
+# Meta description per Google (120-160 caratteri): il fatto, i nomi, i numeri.
+meta_description: Frase che riassume il fatto con nomi e numeri precisi, pensata per chi cerca su Google.
+# In breve (tre righe in cima al pezzo):
+in_breve_dove: Luogo preciso
+in_breve_cosa: Il fatto in una riga
+in_breve_perche: Perché è strano, in una riga
 source_name: Nome della testata o dell'ente
 source_url: https://esempio.it/articolo-originale
 source_date: 1 gennaio 2026

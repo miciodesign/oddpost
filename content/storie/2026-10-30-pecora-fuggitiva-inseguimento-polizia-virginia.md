@@ -6,6 +6,7 @@ summary: A Manassas Park, in Virginia, gli agenti hanno catturato una pecora che
 source_name: WJLA (7News)
 source_url: https://wjla.com/news/local/manassas-park-runaway-sheep-on-the-loose-found-police-seek-animal-owner-blooms-crossing-nancy-street-virginia-rescue-missing-funny-post-prince-william-county
 source_date: 29 ottobre 2026
+tema: animali
 ---
 Mercoledì 28 ottobre la polizia di Manassas Park, una cittadina della Virginia nell'area metropolitana di Washington, ha pubblicato su Facebook un avviso che comincia con una domanda semplice: «Vi manca una pecora?». Perché loro ne hanno trovata una, e non sanno a chi restituirla.
 

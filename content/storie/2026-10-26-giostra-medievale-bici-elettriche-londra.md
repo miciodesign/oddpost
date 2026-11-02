@@ -6,6 +6,7 @@ summary: In un parco di Londra, due ragazzi in armatura e con la lancia in resta
 source_name: LBC
 source_url: https://www.lbc.co.uk/article/lime-bike-joust-london-5Hjdk5M_2/
 source_date: 18 ottobre 2026
+tema: mondo
 ---
 A Londra, in un sabato pomeriggio di metà ottobre, due uomini in armatura completa, elmo e mantello, si sono messi uno di fronte all'altro ai due capi di un prato, hanno abbassato le lance e si sono lanciati l'uno contro l'altro. Niente cavalli: montavano due **bici elettriche a noleggio Lime**, quelle verdi e bianche che si trovano a ogni angolo della città. È successo a London Fields, nel quartiere di Hackney, e secondo la radio londinese LBC c'erano **centinaia** di spettatori di tutte le età.
 

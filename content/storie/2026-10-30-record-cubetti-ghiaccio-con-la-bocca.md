@@ -6,6 +6,7 @@ summary: David Rush, l'uomo dell'Idaho che colleziona Guinness World Records, ne
 source_name: UPI
 source_url: https://www.yahoo.com/entertainment/celebrity/articles/man-moves-ice-cubes-mouth-172619324.html
 source_date: 29 ottobre 2026
+tema: record
 ---
 Il record è questo: **991 grammi di cubetti di ghiaccio** spostati da una vaschetta all'altra in 30 secondi, usando soltanto la bocca. L'ha stabilito David Rush, di Boise, nell'Idaho, il 12 giugno scorso, e Guinness World Records l'ha ufficializzato: titolo "most ice cubes moved by mouth in 30 seconds", raccontato in questi giorni dall'agenzia UPI.
 
