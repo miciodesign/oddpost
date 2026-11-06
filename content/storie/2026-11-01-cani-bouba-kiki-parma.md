@@ -8,6 +8,8 @@ source_url: https://www.focus.it/ambiente/animali/anche-i-cani-sono-d-accordo-su
 source_date: 23 ottobre 2026
 tema: scienza
 seo_title: Effetto bouba-kiki nei cani: lo studio dell'Università di Parma
+image_query: dog looking curious
+image_alt: Cane curioso
 ---
 Provate con chiunque: mostrate una macchia tondeggiante e una stella piena di punte, e chiedete quale si chiama "bouba" e quale "kiki". Tra il **95 e il 98 per cento** delle persone risponde allo stesso modo, bouba la tonda e kiki la spigolosa, in qualunque lingua e a qualunque età. L'esperimento lo inventò lo psicologo Wolfgang Köhler nel 1929 e da allora è uno dei piccoli misteri più studiati della psicologia. Ora un gruppo dell'**Università di Parma**, guidato dall'etologa **Eleonora Biffi**, ha provato a farlo con i cani. E i cani sono d'accordo con noi.
 

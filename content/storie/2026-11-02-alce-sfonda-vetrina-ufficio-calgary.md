@@ -8,6 +8,8 @@ source_url: https://www.ctvnews.ca/calgary/article/thought-it-was-a-prank-moose-
 source_date: 27 ottobre 2026
 tema: animali
 seo_title: Alce entra in un ufficio di Calgary sfondando una finestra
+image_query: moose
+image_alt: Alce
 ---
 Martedì 27 ottobre, di mattina, il telefono di **Grant Thomas-Nelson** ha squillato: un collega gli diceva che c'era un alce nell'atrio. Thomas-Nelson gestisce l'edificio in cui ha sede la AgCall, un'azienda di Midnapore, quartiere nel sud-est di **Calgary**, in Canada, e la sua prima reazione è stata ridere. Lo ha raccontato alla CTV: pensava a uno scherzo. Poi è arrivato sul posto e nell'ingresso c'era davvero un **giovane alce maschio**, grande più o meno come un cavallo, che gironzolava tra le porte come un cliente in attesa.
 

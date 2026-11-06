@@ -8,6 +8,8 @@ source_url: https://www.sciencedaily.com/releases/2026/10/261030003006.htm
 source_date: 31 ottobre 2026
 tema: scienza
 seo_title: Gli alberi hanno "muscoli": come si raddrizzano da soli (studio)
+image_query: poplar trees forest
+image_alt: Pioppi in un bosco
 ---
 Un albero piegato dal vento, da una frana o da un vicino che gli cresce addosso prima o poi torna dritto, e finora si pensava che a guidarlo fossero soprattutto due cose: la gravità, che gli dice dov'è il basso, e la luce, che gli dice dov'è il sole. Un gruppo di ricercatori dell'**INRAE**, l'istituto francese di ricerca agronomica, ha appena dimostrato che c'è un terzo senso, più intimo: l'albero **percepisce la propria forma** e si corregge da solo, usando un legno speciale che si contrae come un muscolo. Lo studio è uscito su *New Phytologist*.
 

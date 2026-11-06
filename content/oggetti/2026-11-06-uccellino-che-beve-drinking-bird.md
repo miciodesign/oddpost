@@ -14,6 +14,8 @@ source_url: https://en.wikipedia.org/wiki/Drinking_bird
 source_date: 6 novembre 2026
 affiliate_url: https://www.amazon.it/s?k=drinking+bird+uccellino+che+beve&tag=oddpost-21
 affiliate_note: Il modello classico, con cilindro e liquido rosso o blu. Serve un bicchiere alla giusta altezza e una stanza non troppo umida, altrimenti l'uccellino si annoia.
+image_query: glass bird figurine
+image_alt: Figurina di vetro a forma di uccello
 ---
 Si bagna il becco di feltro, si mette l'uccellino davanti a un bicchiere d'acqua, e poi si aspetta. Dopo un po' il liquido colorato comincia a salire nel collo di vetro, l'uccellino diventa pesante davanti, si china, tocca l'acqua con il becco, e si rialza. Un minuto dopo, da capo. Può andare avanti **per giorni**, finché c'è acqua nel bicchiere, senza pile, senza molle, senza niente. Il drinking bird esiste dal 1946 e da allora c'è sempre qualcuno che, la prima volta, pensa di avere davanti il moto perpetuo.
 

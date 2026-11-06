@@ -8,6 +8,8 @@ source_url: https://www.ansa.it/sito/notizie/mondo/news_dagli_istituti_di_cultur
 source_date: 21 ottobre 2026
 tema: mondo
 seo_title: Italianismi più diffusi nel mondo: la classifica Treccani (pizzaiuolo primo)
+image_query: italian flag word
+image_alt: Bandiera italiana
 ---
 Se chiedete a un italiano qual è la parola della nostra lingua più conosciuta nel mondo, risponderà "pizza", "ciao" o "mamma". Treccani ha una risposta diversa e più sorprendente: **pizzaiuolo**. Con la "u", nella forma napoletana che l'UNESCO ha fissato nel 2017 iscrivendo "l'arte del pizzaiuolo napoletano" tra i patrimoni immateriali dell'umanità.
 

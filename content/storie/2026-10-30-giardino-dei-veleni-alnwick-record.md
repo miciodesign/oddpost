@@ -8,6 +8,8 @@ source_url: https://www.guinnessworldrecords.com/news/2026/10/garden-of-deathly-
 source_date: 27 ottobre 2026
 tema: mondo
 seo_title: Poison Garden di Alnwick: il giardino dei veleni con 97 specie (record)
+image_query: botanical garden england
+image_alt: Giardino botanico inglese
 ---
 Ci sono giardini dove si chiede di non calpestare le aiuole. Al Poison Garden di Alnwick, nel nord-est dell'Inghilterra, le regole sono altre: **non toccare, non raccogliere, non assaggiare e non annusare**. Il cancello d'ingresso è nero, decorato con teschi e ossa incrociate, e porta la scritta «queste piante possono uccidere». Guinness World Records lo ha appena certificato come il giardino dei veleni con più specie al mondo: **97**, contate alla fine del 2025, e il record finisce nel libro del 2027.
 

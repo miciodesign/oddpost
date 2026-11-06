@@ -12,6 +12,8 @@ in_breve_perche: Tra le oltre 8.000 specie di anfibi viventi, nessuna sopporta l
 source_name: University of California, Davis
 source_url: https://www.ucdavis.edu/curiosity/news/researchers-unearth-fossil-evidence-first-fully-marine-amphibian
 source_date: 26 ottobre 2026
+image_query: fossil prehistoric amphibian
+image_alt: Fossile di anfibio preistorico
 ---
 Rane, rospi, tritoni, salamandre: sono più di 8.000 specie, e **nessuna vive in mare**. La pelle degli anfibi è permeabile, l'acqua salata li disidrata, e la cosa è così regolare che per gli zoologi è quasi una definizione. Poi nel Guizhou, nel sud della Cina, sono saltati fuori due scheletri quasi completi di un animale che quella regola l'ha ignorata per tutta la vita, 237 milioni di anni fa. Lo hanno chiamato *Gerrothorax maritimus*, e lo studio, firmato da ricercatori della University of California Davis, dell'Università di Pechino e del Museo geologico del Guizhou, è uscito su *Nature Ecology & Evolution*.
 

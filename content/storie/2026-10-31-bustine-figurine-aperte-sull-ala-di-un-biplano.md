@@ -7,6 +7,8 @@ source_name: UPI
 source_url: https://www.upi.com/Odd_News/2026/10/30/guinness-world-records-trading-cards-wing-walker/6101793377118/
 source_date: 30 ottobre 2026
 tema: record
+image_query: biplane flying vintage
+image_alt: Biplano in volo
 ---
 Chiunque abbia mai aperto una bustina di figurine conosce il momento: lo strappo, la sbirciata, la speranza. **Coby Bull**, collezionista di 33 anni di Londra, ha voluto provare quella sensazione con un po' di adrenalina in più. Il 13 ottobre si è fatto legare in piedi sull'ala superiore di un biplano **Boeing Stearman degli anni Quaranta**, è decollato dall'aerodromo di Headcorn, nel Kent, e lassù, con il vento di volo attorno ai 120 miglia orarie, cioè circa **190 chilometri all'ora**, ha aperto **sette pacchetti di carte in sessanta secondi**. Senza perderne una.
 

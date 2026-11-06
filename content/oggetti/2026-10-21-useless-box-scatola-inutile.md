@@ -8,6 +8,8 @@ source_url: https://en.wikipedia.org/wiki/Useless_machine
 affiliate_url: https://www.amazon.it/s?k=useless+box+scatola+inutile&tag=oddpost-21
 affiliate_note: Esiste in versione già montata o in kit da assemblare. In entrambi i casi, fa una cosa sola, e la fa benissimo.
 tema: oggetti
+image_query: wooden box switch
+image_alt: Scatola di legno con interruttore
 ---
 Il funzionamento è tutto nel titolo. C'è una scatoletta, di solito di legno, con un interruttore. Lo sposti su "on". Si apre un coperchio, esce una piccola mano meccanica, riporta l'interruttore su "off", e rientra. Il coperchio si chiude. Silenzio. Se lo riaccendi, la mano torna fuori e ti spegne di nuovo. Può andare avanti finché non ti arrendi tu.
 

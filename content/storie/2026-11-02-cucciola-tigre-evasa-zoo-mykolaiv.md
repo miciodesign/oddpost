@@ -8,6 +8,8 @@ source_url: https://www.ukrinform.net/amp/rubric-emergencies/4178023-fourandahal
 source_date: 26 ottobre 2026
 tema: animali
 seo_title: Cucciola di tigre scappata dallo zoo di Mykolaiv
+image_query: tiger cub
+image_alt: Cucciolo di tigre
 ---
 Nella notte tra sabato 24 e domenica 25 ottobre, allo **zoo di Mykolaiv**, nel sud dell'Ucraina, una cucciola di tigre di **quattro mesi e mezzo** ha deciso che il recinto di quarantena le stava stretto. Letteralmente: come ha spiegato il direttore **Volodymyr Topchii** all'agenzia Ukrinform, la piccola, "grande più o meno come uno spaniel adulto", non ha trovato un buco nella rete, ma si è infilata **nello spazio tra le sbarre** vicino al soffitto, dove un animale adulto non sarebbe mai passato. Lei sì.
 

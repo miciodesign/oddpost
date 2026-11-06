@@ -12,6 +12,8 @@ in_breve_perche: Aveva previsto cinque anni, ne ha impiegati 28, senza mai salir
 source_name: Associated Press (via PBS NewsHour)
 source_url: https://www.pbs.org/newshour/world/karl-bushby-embraces-his-mother-as-he-completes-his-28-year-walk-around-world
 source_date: 2 novembre 2026
+image_query: hiker walking road backpack
+image_alt: Viandante con zaino sulla strada
 ---
 Il 1° novembre 1998 un ex paracadutista inglese di 29 anni, Karl Bushby, è uscito da Punta Arenas, in fondo al Cile, con una regola che si era dato da solo: **tornare a casa a piedi, senza mai salire su un mezzo di trasporto e senza mai rientrare prima della fine**, nemmeno per un funerale. Il 2 novembre 2026, 28 anni e un giorno dopo, ha abbracciato sua madre Angela in mezzo alla strada, a Hull, nel nord dell'Inghilterra. Aveva 57 anni e spingeva un carrello con dentro tutto quello che possedeva. Non la vedeva da dieci anni.
 

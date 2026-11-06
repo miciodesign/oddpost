@@ -8,6 +8,8 @@ source_url: https://www.sciencedaily.com/releases/2026/10/261027063707.htm
 source_date: 28 ottobre 2026
 tema: scienza
 seo_title: Salamandra pezzata fluorescente: brilla di verde sotto l'ultravioletto
+image_query: salamander amphibian
+image_alt: Salamandra
 ---
 La salamandra pezzata, *Salamandra salamandra*, è l'anfibio nero a macchie gialle che si incontra nei boschi umidi di mezza Europa, Italia compresa. È studiata da sempre, e le sue tossine, le samandarine, sono state identificate più di un secolo fa. Eppure nessuno aveva mai pensato di guardarla al buio con una lampada a raggi ultravioletti. Adesso qualcuno l'ha fatto, e ha scoperto che **le macchie gialle si accendono di verde e azzurro**.
 

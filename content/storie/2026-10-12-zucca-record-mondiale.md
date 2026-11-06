@@ -8,6 +8,8 @@ source_url: https://www.guinnessworldrecords.com/news/2026/10/pumpkinpalooza-how
 source_date: ottobre 2026
 tema: record
 seo_title: Zucca più pesante del mondo: 1.431 kg, record di Ron Wallace 2026
+image_query: giant pumpkin
+image_alt: Zucca gigante da record
 ---
 Il 3 ottobre, in Inghilterra, un coltivatore di nome Ian Paton ha pesato una zucca di 1.295,8 chili, l'ha chiamata Bagheera e si è preso il record mondiale. Se l'è goduto per esattamente sette giorni. Il 10 ottobre, dall'altra parte dell'Atlantico, Ron Wallace ha messo sulla bilancia una zucca di **1.431,5 chili** e il record è tornato in America.
 

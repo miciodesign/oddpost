@@ -8,6 +8,8 @@ source_url: https://www.railjournal.com/news/transnet-tests-696-wagon-train-in-h
 source_date: 21 ottobre 2026
 tema: record
 seo_title: Treno più lungo del mondo: 696 vagoni, 7,6 km, record Transnet in Sudafrica
+image_query: freight train long
+image_alt: Treno merci lunghissimo
 ---
 Immagina di essere fermo a un passaggio a livello e di vedere passare un treno merci. Ora immagina che continui a passare per più di sette chilometri. Se avessi aspettato in macchina domenica 18 ottobre lungo la linea del minerale di ferro tra Saldanha Bay e il Capo Settentrionale, in Sudafrica, ti sarebbe successo esattamente questo.
 

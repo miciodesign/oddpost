@@ -12,6 +12,8 @@ in_breve_perche: Entrambi hanno a disposizione partner della propria specie, e n
 source_name: Università di Pisa
 source_url: https://www.unipi.it/en/news/an-unusual-bond-between-a-bull-and-a-male-donkey/
 source_date: 2 novembre 2026
+image_query: bull donkey farm field
+image_alt: Toro e asino in un campo
 ---
 Il toro si chiama Achille, l'asino Patroclo. Hanno due padroni diversi e si vedono solo al pascolo, su un altopiano dell'Etiopia, ma appena si vedono non si staccano più: si leccano, si strofinano il muso, pascolano fianco a fianco e, con una regolarità che ha sorpreso chi li osservava, **si accoppiano**. Tra il 6 e il 19 marzo 2026 i ricercatori hanno contato **51 monte** del toro sull'asino. L'asino non si è mai sottratto; anzi, spesso era lui a presentarsi e a mordicchiarlo per attirarne l'attenzione.
 

@@ -8,6 +8,8 @@ source_url: https://en.wikipedia.org/wiki/Clocky
 affiliate_url: https://www.amazon.it/s?k=clocky+sveglia+con+ruote&tag=oddpost-21
 affiliate_note: Esiste in vari colori. Nessuno di questi la rende più simpatica alle sette del mattino.
 tema: oggetti
+image_query: alarm clock bedside
+image_alt: Sveglia sul comodino
 ---
 Il tasto snooze è il grande nemico dell'umanità produttiva. Lo premi una volta, va bene. Lo premi due volte, e sei perso. Clocky nasce esattamente da questa osservazione: è una sveglia con **due ruote grandi** ai lati, e funziona come tutte le altre finché non premi lo snooze per la seconda volta. A quel punto si lancia giù dal comodino, atterra sulle ruote, che hanno degli ammortizzatori apposta, e parte per la stanza a velocità e direzione casuali, aggirando gli ostacoli. Quando la suoneria riparte, lei è da qualche parte sotto il letto, o dietro la porta, e per spegnerla devi alzarti e andarla a cercare. Che era l'obiettivo.
 

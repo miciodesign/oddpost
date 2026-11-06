@@ -7,6 +7,8 @@ source_name: FOX 5 New York (da FOX 6 Milwaukee)
 source_url: https://www.fox5ny.com/news/deer-crashes-through-window-appleton-wisconsin
 source_date: 26 ottobre 2026
 tema: animali
+image_query: deer indoors window
+image_alt: Cervo vicino a una finestra
 ---
 Ad Appleton, una città del Wisconsin, la polizia ha ricevuto una segnalazione classica: qualcuno è entrato in un appartamento al pianterreno mentre i proprietari non c'erano. Due agenti sono arrivati sul posto, hanno fatto il giro dell'edificio e hanno guardato dentro dalla finestra. L'intruso era lì, in mezzo al soggiorno, e li guardava a sua volta. Era un **cervo**.
 

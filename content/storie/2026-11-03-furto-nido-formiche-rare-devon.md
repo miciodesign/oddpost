@@ -12,6 +12,8 @@ in_breve_perche: È l'ultima popolazione della specie in Inghilterra, 142 nidi c
 source_name: Devon Wildlife Trust
 source_url: https://www.devonwildlifetrust.org/news/thieves-strike-ants-last-english-stronghold
 source_date: 2 novembre 2026
+image_query: ants nest macro
+image_alt: Formiche sul formicaio
 ---
 I ricercatori del Devon Wildlife Trust fanno il giro dei nidi con regolarità, e a metà ottobre uno dei nidi non c'era più. Al suo posto, una buca con intorno **i segni netti di una vanga**. Qualcuno era entrato nella riserva di Chudleigh Knighton Heath, nel sud del Devon, aveva scavato ed era uscito con un formicaio intero. Il Trust ha fatto denuncia alla polizia del Devon e della Cornovaglia, che ha assegnato al caso un numero di fascicolo e chiede a chi sa qualcosa di farsi avanti.
 

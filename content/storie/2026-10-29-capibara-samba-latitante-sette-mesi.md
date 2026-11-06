@@ -8,6 +8,8 @@ source_url: https://www.itv.com/news/meridian/2026-10-27/capybara-samba-still-al
 source_date: 27 ottobre 2026
 tema: animali
 seo_title: Samba, il capibara scappato dal Marwell Zoo: libero da sette mesi
+image_query: capybara
+image_alt: Capibara
 ---
 Samba è un capibara femmina di un anno, ed è la latitante più tranquilla dell'Inghilterra. È arrivata al Marwell Zoo, vicino a Winchester, nell'Hampshire, insieme alla sorella Tango, da un parco faunistico del Suffolk. Il 17 marzo, **meno di un giorno dopo l'arrivo**, le due sono uscite dal recinto temporaneo in cui erano state sistemate. Tango è stata ripresa quasi subito. Samba no. Sono passati sette mesi, e lo zoo ha appena confermato che è ancora là fuori, viva, in forma, ripresa dalle fototrappole che le hanno piazzato intorno.
 

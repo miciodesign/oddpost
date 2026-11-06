@@ -21,10 +21,12 @@ source_date: 1 gennaio 2026
 # Solo per la rubrica Oggetti (facoltativi):
 # affiliate_url: https://www.amazon.it/dp/XXXXXXXXXX?tag=oddpost-21
 # affiliate_note: Una riga sul prodotto, nel tono del sito.
-# Immagine (facoltativa, va messa in static/img/):
-# image: /static/img/nome-file.jpg
-# image_alt: Descrizione dell'immagine
-# image_credit: Foto di Nome, licenza
+# Immagine di copertina (obbligatoria): due parole chiave in inglese,
+# che il sito userà per cercare automaticamente una foto su Pixabay in fase di pubblicazione.
+# Niente nomi propri troppo specifici (poche foto); meglio il soggetto generico.
+image_query: due parole chiave in inglese, es. "mushroom forest closeup"
+image_alt: Descrizione breve dell'immagine, in italiano
+# Non serve impostare "image": viene calcolato automaticamente dalla image_query.
 # Per tenerlo nascosto finché non è pronto:
 # draft: true
 ---

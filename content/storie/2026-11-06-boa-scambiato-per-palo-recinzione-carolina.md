@@ -12,6 +12,8 @@ in_breve_perche: Il proprietario del campo lo ha scambiato per un palo, poi lo h
 source_name: WRAL News
 source_url: https://www.wral.com/news/local/hoke-county-man-mistakes-boa-constrictor-for-fence-post-november-2026/
 source_date: 4 novembre 2026
+image_query: boa constrictor snake
+image_alt: Boa constrictor
 ---
 Richard Wood stava facendo montare una recinzione nella sua fattoria su Calloway Road, vicino a Raeford, nella contea di Hoke, Carolina del Nord, quando ha notato in mezzo al lavoro quello che gli è sembrato un palo. Poi si è avvicinato. «Guarda un po', non era un palo: era un serpente», ha raccontato alla tv locale WRAL. Un boa constrictor lungo tra **1,8 e 2,1 metri**, fermo immobile, che da lontano faceva la sua figura.
 

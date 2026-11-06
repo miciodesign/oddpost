@@ -7,6 +7,8 @@ source_name: SFist
 source_url: https://sfist.com/2026/10/15/pet-emu-gets-loose-runs-through-traffic-in-santa-cruz/
 source_date: 15 ottobre 2026
 tema: animali
+image_query: emu bird running
+image_alt: Emù che corre
 ---
 Le chiamate sono arrivate da più persone, tutte con la stessa descrizione: c'è un uccello enorme che entra ed esce dalla strada, all'incrocio tra Harper Street e la 17ª Avenue, a Santa Cruz, California. Non un gabbiano. Un **emù**: un metro e ottanta di altezza, zampe da velocista, espressione perennemente sorpresa.
 

@@ -21,6 +21,19 @@ jobs:
       - name: Installa dipendenze
         run: pip install -r requirements.txt
 
+      - name: Cache immagini articoli
+        uses: actions/cache@v4
+        with:
+          path: static/img/articoli
+          key: pixabay-img-v1-${{ hashFiles('content/**/*.md') }}
+          restore-keys: |
+            pixabay-img-v1-
+
+      - name: Scarica le immagini di copertina (Pixabay)
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: python3 scripts/fetch_images.py
+
       - name: Genera il sito
         run: python3 build.py
 

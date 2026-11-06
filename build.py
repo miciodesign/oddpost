@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import datetime as dt
 import html
+import json
 import re
 import shutil
 from pathlib import Path
@@ -22,6 +23,8 @@ CONTENT = ROOT / "content"
 TEMPLATES = ROOT / "templates"
 STATIC = ROOT / "static"
 OUT = ROOT / "public"
+IMG_DIR = STATIC / "img" / "articoli"
+CREDITS_FILE = IMG_DIR / "credits.json"
 
 SITE = {
     "name": "Oddpost",
@@ -101,7 +104,14 @@ def data_italiana(d: dt.date) -> str:
 md = markdown.Markdown(extensions=["extra", "smarty"], output_format="html5")
 
 
+def load_image_credits() -> dict:
+    if CREDITS_FILE.exists():
+        return json.loads(CREDITS_FILE.read_text(encoding="utf-8"))
+    return {}
+
+
 def load_articles() -> list[dict]:
+    credits = load_image_credits()
     articles = []
     for rubrica in RUBRICHE:
         for path in sorted((CONTENT / rubrica).glob("*.md")):
@@ -116,11 +126,24 @@ def load_articles() -> list[dict]:
             if tema not in TEMI:
                 tema = "mondo"
             in_breve = {k: meta[f"in_breve_{k}"] for k in ("dove", "cosa", "perche") if meta.get(f"in_breve_{k}")}
+
+            image = meta.get("image")
+            image_credit = meta.get("image_credit")
+            image_credit_url = meta.get("image_credit_url")
+            if not image and meta.get("image_query") and (IMG_DIR / f"{slug}.jpg").exists():
+                image = f"/static/img/articoli/{slug}.jpg"
+                c = credits.get(slug, {})
+                image_credit = image_credit or c.get("credit")
+                image_credit_url = image_credit_url or c.get("credit_url")
+
             art = {
                 **meta,
                 "rubrica": RUBRICHE[rubrica],
                 "tema": TEMI[tema],
                 "in_breve": in_breve,
+                "image": image,
+                "image_credit": image_credit,
+                "image_credit_url": image_credit_url,
                 "seo_title": meta.get("seo_title") or meta["title"],
                 "meta_description": meta.get("meta_description") or meta.get("summary", ""),
                 "date": date,

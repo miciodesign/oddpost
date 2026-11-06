@@ -12,6 +12,8 @@ in_breve_perche: I denti erano stati raccolti nel 2004 e nessuno, allora, aveva 
 source_name: CBS News / AFP
 source_url: https://www.cbsnews.com/news/giant-rat-fossilized-teeth-reveal-thailand/
 source_date: 5 novembre 2026
+image_query: coal mine excavation
+image_alt: Miniera di carbone
 ---
 Un molare e un incisivo. Tutto quello che resta di *Yakamys sirindhornae* sono due denti, trovati nel 2004 in una miniera di carbone nel bacino di Krabi, nel sud della Thailandia. Bastano però a dire che il loro proprietario era un roditore di circa **30 chili**, grosso quanto mezzo capibara adulto, vissuto tra **33 e 35 milioni di anni fa**, nel tardo Eocene. Per l'epoca, uno dei roditori più grandi che si conoscano. Lo studio che lo descrive, firmato da ricercatori di Thailandia, Francia e Canada, è uscito questa settimana su *Scientific Reports*.
 

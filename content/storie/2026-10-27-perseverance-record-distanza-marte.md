@@ -8,6 +8,8 @@ source_url: https://www.guinnessworldrecords.com/news/2026/10/nasas-perseverance
 source_date: 13 ottobre 2026
 tema: scienza
 seo_title: Perseverance batte il record di distanza su Marte: 45 km, superato Opportunity
+image_query: mars rover surface
+image_alt: Rover su Marte
 ---
 Domenica 11 ottobre il rover Perseverance della NASA ha percorso **91,31 metri** da un punto chiamato «Lac de Charmes», sul bordo del cratere Jezero, verso una zona di rocce antiche chiamata «Idubi». Non sembra granché, ma il contachilometri è passato da 45,13 a **45,22 chilometri**, e con quei pochi metri Perseverance ha superato la distanza totale percorsa da Opportunity, suo predecessore, diventando il veicolo che ha viaggiato più lontano sulla superficie di un altro mondo. Il Guinness World Records ha registrato il primato.
 

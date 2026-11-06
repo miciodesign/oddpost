@@ -16,7 +16,13 @@ Un articolo con `draft: true` non viene pubblicato.
 Campi del front matter oltre a quelli base: `tema` (animali, scienza, record, mondo, oggetti; genera le pagine
 `/tema/<slug>/` e sceglie le storie correlate), `seo_title` (title per Google, con il nome ricercabile),
 `meta_description` (descrizione per Google), `in_breve_dove` / `in_breve_cosa` / `in_breve_perche`
-(il riquadro "in breve" in cima al pezzo). Il modello li spiega tutti.
+(il riquadro "in breve" in cima al pezzo), `image_query` (due parole chiave in inglese: in fase di build,
+GitHub Actions cerca una foto su Pixabay e la scarica in `static/img/articoli/<slug>.jpg`; non serve scaricarla
+a mano, basta la chiave di ricerca) e `image_alt` (descrizione dell'immagine in italiano). Il modello li spiega tutti.
+
+Le immagini si scaricano solo in CI (serve `PIXABAY_API_KEY` nei secret del repo GitHub), perché questa sandbox
+non può raggiungere pixabay.com: in locale `python3 build.py` genera il sito senza immagini nuove, usa quelle
+già in `static/img/articoli/` se presenti.
 
 ## Struttura
 

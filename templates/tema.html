@@ -11,9 +11,12 @@
   {% for a in articles %}
   <li class="story">
     <a href="{{ a.url }}">
-      <h2 class="story-title">{{ a.title }}</h2>
-      <p class="story-summary">{{ a.summary }}</p>
-      <p class="meta">{{ a.date_it }}</p>
+      {% if a.image %}<img class="story-thumb" src="{{ a.image }}" alt="" loading="lazy">{% endif %}
+      <div class="story-body">
+        <h2 class="story-title">{{ a.title }}</h2>
+        <p class="story-summary">{{ a.summary }}</p>
+        <p class="meta">{{ a.date_it }}</p>
+      </div>
     </a>
   </li>
   {% endfor %}

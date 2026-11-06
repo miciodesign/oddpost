@@ -14,6 +14,8 @@ meta_description: Le Sea-Monkeys sono uova di Artemia vendute secche dal 1957 da
 in_breve_dove: Stati Uniti, 1957, poi in tutto il mondo
 in_breve_cosa: Un kit con tre bustine che, versate nell'acqua, fanno nascere dei piccoli crostacei vivi
 in_breve_perche: Sono vendute da quasi settant'anni con pubblicità che promettono omini sorridenti, e sono gamberetti
+image_query: brine shrimp aquarium
+image_alt: Piccoli crostacei in acquario
 ---
 Il meccanismo è questo: una vaschetta di plastica, acqua del rubinetto, la bustina numero 1 («depuratore», in realtà sale, conditore e già qualche uovo), 24 ore di attesa, poi la bustina numero 2, «uova di vita istantanea». Il giorno dopo nell'acqua **nuotano dei puntini**. Sono vivi. Crescono, in 8-10 settimane diventano adulti, si riproducono, e con la bustina numero 3, da aggiungere ogni sette giorni, si nutrono. Le Sea-Monkeys sono in commercio dal 1957 e il loro slogan, «gli unici animali domestici istantanei del mondo», non è nemmeno una bugia.
 

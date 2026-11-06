@@ -12,6 +12,8 @@ in_breve_perche: Secondo lei non era nemmeno al massimo, perché era piena di ra
 source_name: Guinness World Records
 source_url: https://www.guinnessworldrecords.com/news/2026/11/town-crier-brenda-is-officially-the-worlds-loudest-woman-after-record-breaking-shout
 source_date: 4 novembre 2026
+image_query: town crier bell
+image_alt: Banditore pubblico
 ---
 Il mestiere di town crier, il banditore che nelle città inglesi legge gli annunci in piazza con la campanella in mano, esiste da secoli e ha una sola qualifica richiesta: farsi sentire. Brenda Willison, banditrice di **Newmarket**, nel Suffolk, la possiede in misura ufficialmente superiore a chiunque altra: il suo «oyez», la formula con cui si apre ogni annuncio (vuol dire «udite», dal francese antico), è stato misurato a **105,9 decibel**. Per avere un'idea, è il rumore di uno spazzaneve acceso o di un clacson a un passo dall'orecchio.
 

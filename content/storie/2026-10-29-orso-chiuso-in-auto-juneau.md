@@ -8,6 +8,8 @@ source_url: https://www.alaskasnewssource.com/2026/10/27/bear-locks-itself-subar
 source_date: 27 ottobre 2026
 tema: animali
 seo_title: Orso chiuso in una Subaru a Juneau, Alaska: ha smontato l'interno
+image_query: black bear forest
+image_alt: Orso nero nel bosco
 ---
 Erano le 00:30 di lunedì 26 ottobre, a Juneau, la capitale dell'Alaska, quando un vicino ha sentito un clacson suonare senza sosta. Si è affacciato e ha visto chi lo premeva: un **orso nero**, seduto sul clacson di una Subaru parcheggiata. Ha chiamato il 911. Nel frattempo l'orso, entrato da un'auto lasciata aperta e ritrovatosi con la portiera chiusa, aveva già iniziato a ridisegnare l'abitacolo.
 

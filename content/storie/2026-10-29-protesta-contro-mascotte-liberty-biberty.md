@@ -8,6 +8,8 @@ source_url: https://www.bostonglobe.com/2026/10/25/metro/liberty-biberty-protest
 source_date: 25 ottobre 2026
 tema: mondo
 seo_title: Liberty Biberty: la protesta a Boston contro la mascotte
+image_query: mascot costume yellow
+image_alt: Mascotte pubblicitaria
 ---
 Domenica 25 ottobre, nel pomeriggio, diverse decine di persone si sono radunate davanti al quartier generale di Liberty Mutual, a Back Bay, Boston. Non per una polizza, non per uno sciopero, ma per chiedere alla compagnia di assicurazioni di **togliere dalla televisione la sua nuova mascotte**: Liberty Biberty, una palla di pelo gialla con due occhi, costruita dal Creature Shop di Jim Henson, lo stesso laboratorio dei Muppet. Cartelli con la scritta «Liberty from Biberty», felpe coordinate con la faccia del pupazzo sbarrata, cori e automobilisti di passaggio che suonavano il clacson in segno di solidarietà. È durata circa un'ora, ed è stata, per ammissione di tutti, pacifica.
 

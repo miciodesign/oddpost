@@ -8,6 +8,8 @@ source_url: https://en.wikipedia.org/wiki/Pet_Rock
 affiliate_url: https://www.amazon.it/s?k=pet+rock+sasso+domestico&tag=oddpost-21
 affiliate_note: Il Pet Rock originale è tornato in vendita nel 2022, scatola e manuale compresi. Richiede poche cure, ma vuole affetto.
 tema: oggetti
+image_query: smooth pebble stone
+image_alt: Sasso liscio
 ---
 Gary Dahl faceva il pubblicitario in California. Una sera del 1975, al bar, gli amici si lamentavano dei loro animali: il cane che sporca, il gatto che graffia, il pesce che muore. Dahl disse che lui aveva l'animale perfetto: un sasso. Non mangia, non sporca, non scappa, non muore. Gli amici risero. Dahl no: andò a casa e scrisse un manuale.
 

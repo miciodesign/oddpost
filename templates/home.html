@@ -4,6 +4,7 @@
 {% if lead %}
 <section class="lead">
   <a class="lead-link" href="{{ lead.url }}">
+    {% if lead.image %}<img class="lead-image" src="{{ lead.image }}" alt="{{ lead.image_alt or '' }}" loading="lazy">{% endif %}
     <p class="kicker kicker-{{ lead.rubrica.slug }}">{{ lead.tema.name }}</p>
     <h1 class="lead-title">{{ lead.title }}</h1>
     <p class="lead-summary">{{ lead.summary }}</p>
@@ -19,10 +20,13 @@
     {% for a in articles[1:13] %}
     <li class="story">
       <a href="{{ a.url }}">
-        <p class="kicker kicker-{{ a.rubrica.slug }}">{{ a.tema.name }}</p>
-        <h3 class="story-title">{{ a.title }}</h3>
-        <p class="story-summary">{{ a.summary }}</p>
-        <p class="meta">{{ a.date_it }}</p>
+        {% if a.image %}<img class="story-thumb" src="{{ a.image }}" alt="" loading="lazy">{% endif %}
+        <div class="story-body">
+          <p class="kicker kicker-{{ a.rubrica.slug }}">{{ a.tema.name }}</p>
+          <h3 class="story-title">{{ a.title }}</h3>
+          <p class="story-summary">{{ a.summary }}</p>
+          <p class="meta">{{ a.date_it }}</p>
+        </div>
       </a>
     </li>
     {% endfor %}

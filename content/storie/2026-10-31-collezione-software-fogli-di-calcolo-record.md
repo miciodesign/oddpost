@@ -8,6 +8,8 @@ source_url: https://www.guinnessworldrecords.com/news/2026/10/everyone-loves-spr
 source_date: 28 ottobre 2026
 tema: record
 seo_title: Collezione più grande di software per fogli di calcolo: record Guinness
+image_query: computer spreadsheet office
+image_alt: Fogli di calcolo al computer
 ---
 C'è chi colleziona francobolli, chi monete, chi tappi di bottiglia. **Ariel Fischman**, consulente finanziario americano, sposato e padre di due figli, colleziona programmi per fogli di calcolo. Non i file: le copie fisiche, scatola compresa. Il Guinness World Records gli ha certificato il titolo di **più grande collezione di software per fogli di calcolo** nel 2018, quando i pezzi unici erano 506. Oggi, racconta il Guinness in un articolo del 28 ottobre, ha superato quota **mille**.
 

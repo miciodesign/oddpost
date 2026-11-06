@@ -8,6 +8,8 @@ source_url: https://www.sciencedaily.com/releases/2026/10/261025073034.htm
 source_date: 26 ottobre 2026
 tema: scienza
 seo_title: Dianjunus rex, il fungo gigante D-rex scoperto nello Yunnan: 50 cm, 2,2 kg
+image_query: giant mushroom forest
+image_alt: Fungo gigante nel bosco
 ---
 Si chiama *Dianjunus rex*, i ricercatori lo chiamano **D-rex**, e il soprannome non è casuale. È un fungo scoperto nella provincia cinese dello Yunnan che tira su dal terreno corpi fruttiferi verticali alti fino a **50 centimetri** e pesanti fino a **2,2 chili**: i più grandi mai registrati tra gli ascomiceti, il gruppo di funghi più numeroso che esista, con oltre 64.000 specie note. Fino a ieri il massimo, in quel gruppo, erano 20 o 30 centimetri. D-rex li supera di una testa, o meglio di un'intera altezza.
 

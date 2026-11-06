@@ -8,6 +8,8 @@ source_url: https://www.thejakartapost.com/culture/2026/10/21/feared-extinct-ban
 source_date: 21 ottobre 2026
 tema: animali
 seo_title: Lori lento di Bangka: il primate velenoso ritrovato dopo un secolo
+image_query: slow loris
+image_alt: Lori, piccolo primate notturno
 ---
 Gli ultimi documenti scientifici che lo descrivevano risalivano agli anni tra il 1930 e il 1932. Da allora, del lori lento di Bangka (*Nycticebus bancanus*) non c'era più traccia nei registri della zoologia, al punto che nel 2020 l'Unione internazionale per la conservazione della natura lo aveva classificato "in pericolo critico, forse estinto". Nel frattempo, sull'isola indonesiana di Bangka, la gente continuava a trovarselo in giardino.
 

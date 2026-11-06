@@ -8,6 +8,8 @@ source_url: https://www.chinadailyasia.com/hk/article/641664
 source_date: 25 ottobre 2026
 tema: record
 seo_title: Record di moto sull'acqua: 40 km su un fiume in Cina
+image_query: jet ski water splash
+image_alt: Moto d'acqua sul lago
 ---
 Domenica 25 ottobre, alle undici del mattino, Zhang Xue è salito su una moto, ha preso velocità sulla riva di un fiume nella contea di Mayang, nella provincia cinese dello Hunan, ed è entrato in acqua. Non è affondato. Ha fatto **sei giri** di un lungo tratto di fiume e si è fermato dopo **40,74 chilometri**, abbastanza per il nuovo Guinness World Record della distanza più lunga percorsa su acque aperte con una motocicletta modificata. Il record precedente era di 31,8 chilometri.
 

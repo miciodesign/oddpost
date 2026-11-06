@@ -31,7 +31,9 @@
   {% if article.image %}
   <figure class="article-figure">
     <img src="{{ article.image }}" alt="{{ article.image_alt or '' }}" loading="lazy">
-    {% if article.image_credit %}<figcaption>{{ article.image_credit }}</figcaption>{% endif %}
+    {% if article.image_credit %}
+    <figcaption>{% if article.image_credit_url %}<a href="{{ article.image_credit_url }}" rel="noopener" target="_blank">{{ article.image_credit }}</a>{% else %}{{ article.image_credit }}{% endif %}</figcaption>
+    {% endif %}
   </figure>
   {% endif %}
 
@@ -70,9 +72,12 @@
     {% for a in related %}
     <li class="story">
       <a href="{{ a.url }}">
-        <p class="kicker kicker-{{ a.rubrica.slug }}">{{ a.tema.name }}</p>
-        <h3 class="story-title">{{ a.title }}</h3>
-        <p class="story-summary">{{ a.summary }}</p>
+        {% if a.image %}<img class="story-thumb" src="{{ a.image }}" alt="" loading="lazy">{% endif %}
+        <div class="story-body">
+          <p class="kicker kicker-{{ a.rubrica.slug }}">{{ a.tema.name }}</p>
+          <h3 class="story-title">{{ a.title }}</h3>
+          <p class="story-summary">{{ a.summary }}</p>
+        </div>
       </a>
     </li>
     {% endfor %}

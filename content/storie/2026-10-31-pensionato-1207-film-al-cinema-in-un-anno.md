@@ -8,6 +8,8 @@ source_url: https://www.guinnessworldrecords.com/news/2026/10/american-movie-buf
 source_date: 30 ottobre 2026
 tema: record
 seo_title: 1.207 film al cinema in un anno: il record del pensionato
+image_query: cinema movie theater seats
+image_alt: Sala cinematografica
 ---
 Per un anno intero, **Glenwood Hoskin Jr.** ha avuto una routine semplice: sveglia presto, cinema, cinema, cinema, letto verso mezzanotte. Alla fine dei dodici mesi aveva visto **1.207 film in sala**, in media 3,3 al giorno, e il Guinness World Records gli ha assegnato il titolo di maggior numero di film visti al cinema in un anno. Il record precedente, di Zachariah Swope, era di 777: lo ha superato di 430.
 

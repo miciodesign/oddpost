@@ -8,6 +8,8 @@ source_url: https://gulfnews.com/uae/dubai-marks-two-new-guinness-world-records-
 source_date: 24 ottobre 2026
 tema: record
 seo_title: Orecchini d'oro più pesanti del mondo: 16,5 kg a Dubai (Guinness)
+image_query: gold jewelry earrings dubai
+image_alt: Gioielli d'oro
 ---
 Nessuna persona al mondo potrà mai indossarli, e questo è un po' il punto. Sabato 24 ottobre, nel Gold District di Dubai, la catena di gioiellerie indiana **Joyalukkas** ha presentato un paio di orecchini in oro a 22 carati che pesano, in tutto, **16,514 chili**, più o meno quanto un bambino di quattro anni. Il Guinness World Records ha certificato sul posto due primati: **il paio di orecchini d'oro più pesante** e **il più grande** mai realizzato. Secondo l'azienda, il peso è più di cinque volte quello del record precedente.
 

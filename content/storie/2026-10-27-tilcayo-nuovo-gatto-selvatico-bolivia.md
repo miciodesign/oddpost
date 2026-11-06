@@ -8,6 +8,8 @@ source_url: https://www.guinnessworldrecords.com/news/2026/10/mystery-kitten-gro
 source_date: 21 ottobre 2026
 tema: animali
 seo_title: Tilcayo: il nuovo felino scoperto in Bolivia, primo da oltre un secolo
+image_query: wild cat forest
+image_alt: Gatto selvatico
 ---
 Nel 2017 al rifugio per animali selvatici Senda Verde, nella regione delle Yungas, in Bolivia, arriva un cucciolo orfano con una descrizione sommaria: «un gatto strano». Lo aveva trovato un uomo vicino a una foresta, e se l'era tenuto in casa per un anno prima di rendersi conto che quello non era un micio di nessuna razza conosciuta. Nove anni dopo, quel gatto strano ha un nome scientifico, *Leopardus tilcayo*, e un primato: secondo il Guinness World Records è il **felino selvatico più nuovo del mondo**, la prima specie di gatto descritta da **più di cent'anni**.
 

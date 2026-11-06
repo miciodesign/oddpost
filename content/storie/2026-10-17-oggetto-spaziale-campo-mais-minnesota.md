@@ -8,6 +8,8 @@ source_url: https://www.accuweather.com/en/space-news/mysterious-11-foot-object-
 source_date: ottobre 2026
 tema: scienza
 seo_title: Oggetto spaziale caduto in un campo di mais in Minnesota: cos'è
+image_query: corn field sky
+image_alt: Campo di mais sotto il cielo
 ---
 Stevens County, Minnesota, 14 ottobre. Un agricoltore sta raccogliendo il mais quando la mietitrebbia si ritrova davanti qualcosa che nel campo non ci doveva essere: un oggetto metallico, annerito come se fosse passato attraverso un forno, largo circa **3,3 metri**. Chiama lo sceriffo. Lo sceriffo arriva, guarda, e scrive nel comunicato ufficiale che si tratta, "presumibilmente", di un oggetto spaziale.
 

@@ -153,7 +153,29 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .article-summary { font-size: 1.2rem; line-height: 1.5; color: var(--ink-soft); margin: 0; max-width: var(--measure); }
 .article-figure { margin: 0 0 1.5rem; }
+.article-figure img {
+  display: block; width: 100%; max-height: 26rem; object-fit: cover;
+  border: 2px solid var(--ink); border-radius: 2px;
+}
 .article-figure figcaption { font-family: var(--display); font-size: .8rem; color: var(--ash); margin-top: .4rem; }
+.article-figure figcaption a { color: inherit; }
+
+/* Immagine in evidenza nel lead di home */
+.lead-image {
+  display: block; width: 100%; max-height: 22rem; object-fit: cover;
+  border: 2px solid var(--ink); border-radius: 2px; margin-bottom: 1rem;
+}
+
+/* Miniature nelle liste di articoli */
+.story a { display: flex; gap: 1rem; align-items: flex-start; }
+.story-thumb {
+  flex: 0 0 6.5rem; width: 6.5rem; height: 6.5rem; object-fit: cover;
+  border: 2px solid var(--ink); border-radius: 2px; background: var(--mist);
+}
+.story-body { min-width: 0; flex: 1 1 auto; }
+@media (max-width: 26rem) {
+  .story-thumb { flex-basis: 4.5rem; width: 4.5rem; height: 4.5rem; }
+}
 .article-body { max-width: var(--measure); font-size: 1.125rem; line-height: 1.7; }
 .article-body > p:first-child::first-letter {
   font-family: var(--display); font-weight: 900; font-size: 3.4em; line-height: .8;

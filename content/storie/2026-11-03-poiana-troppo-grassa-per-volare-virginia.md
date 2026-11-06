@@ -12,6 +12,8 @@ in_breve_perche: Si era mangiata per settimane le galline che un vicino lasciava
 source_name: UPI (via Yahoo)
 source_url: https://www.yahoo.com/lifestyle/articles/look-hawk-found-grounded-virginia-211228639.html
 source_date: 2 novembre 2026
+image_query: hawk bird of prey
+image_alt: Rapace, poiana
 ---
 Quando un rapace sta fermo a terra in un vialetto e non scappa all'arrivo degli umani, di solito è successo qualcosa di brutto: un'auto, un vetro, un cavo. La poiana spallerosse arrivata a fine ottobre al **Southwest Virginia Wildlife Center** di Roanoke, in Virginia, è stata controllata per tutte queste cose. Ossa rotte, no. Avvelenamento da piombo, no. Occhi, trauma cranico, lividi da scontro o da lotta, denutrizione: niente. Poi l'hanno messa sulla bilancia.
 
