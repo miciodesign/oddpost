@@ -44,6 +44,10 @@ def parse_front_matter(text: str) -> dict:
     return meta
 
 
+UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36")
+
+
 def pixabay_search(query: str) -> dict | None:
     params = {
         "key": API_KEY,
@@ -55,14 +59,15 @@ def pixabay_search(query: str) -> dict | None:
         "min_width": 640,
     }
     url = "https://pixabay.com/api/?" + urllib.parse.urlencode(params)
-    with urllib.request.urlopen(url, timeout=20) as r:
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
+    with urllib.request.urlopen(req, timeout=20) as r:
         data = json.loads(r.read().decode("utf-8"))
     hits = data.get("hits", [])
     return hits[0] if hits else None
 
 
 def download(url: str, dest: Path) -> None:
-    req = urllib.request.Request(url, headers={"User-Agent": "Oddpost/1.0 (+https://oddpost.it)"})
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Referer": "https://pixabay.com/"})
     with urllib.request.urlopen(req, timeout=30) as r, open(dest, "wb") as f:
         f.write(r.read())
 
