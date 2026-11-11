@@ -9,6 +9,7 @@ source_date: 18 ottobre 2026
 tema: mondo
 image_query: medieval knight armor jousting
 image_alt: Cavaliere medievale in armatura
+in_evidenza: true
 ---
 A Londra, in un sabato pomeriggio di metà ottobre, due uomini in armatura completa, elmo e mantello, si sono messi uno di fronte all'altro ai due capi di un prato, hanno abbassato le lance e si sono lanciati l'uno contro l'altro. Niente cavalli: montavano due **bici elettriche a noleggio Lime**, quelle verdi e bianche che si trovano a ogni angolo della città. È successo a London Fields, nel quartiere di Hackney, e secondo la radio londinese LBC c'erano **centinaia** di spettatori di tutte le età.
 

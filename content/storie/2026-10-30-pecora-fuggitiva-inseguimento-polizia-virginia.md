@@ -9,6 +9,7 @@ source_date: 29 ottobre 2026
 tema: animali
 image_query: sheep garden escape
 image_alt: Pecora in un giardino
+in_evidenza: true
 ---
 Mercoledì 28 ottobre la polizia di Manassas Park, una cittadina della Virginia nell'area metropolitana di Washington, ha pubblicato su Facebook un avviso che comincia con una domanda semplice: «Vi manca una pecora?». Perché loro ne hanno trovata una, e non sanno a chi restituirla.
 

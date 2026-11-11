@@ -13,6 +13,46 @@
 </section>
 {% endif %}
 
+{% if in_evidenza %}
+<section class="featured" aria-labelledby="in-evidenza">
+  <h2 id="in-evidenza" class="section-title">Le più lette</h2>
+  <ol class="story-list featured-list">
+    {% for a in in_evidenza %}
+    <li class="story">
+      <a href="{{ a.url }}">
+        {% if a.image %}<img class="story-thumb" src="{{ a.image }}" alt="" loading="lazy">{% endif %}
+        <div class="story-body">
+          <p class="kicker kicker-{{ a.rubrica.slug }}">{{ a.tema.name }}</p>
+          <h3 class="story-title">{{ a.title }}</h3>
+          <p class="story-summary">{{ a.summary }}</p>
+        </div>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}
+
+{% if oggetti_vetrina %}
+<section class="showcase" aria-labelledby="in-vendita">
+  <h2 id="in-vendita" class="section-title">Cose strane (e in vendita)</h2>
+  <ol class="story-list showcase-list">
+    {% for a in oggetti_vetrina %}
+    <li class="story">
+      <a href="{{ a.url }}">
+        {% if a.image %}<img class="story-thumb" src="{{ a.image }}" alt="" loading="lazy">{% endif %}
+        <div class="story-body">
+          <p class="kicker kicker-{{ a.rubrica.slug }}">{{ a.tema.name }}</p>
+          <h3 class="story-title">{{ a.title }}</h3>
+          <p class="story-summary">{{ a.summary }}</p>
+        </div>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}
+
 {% if articles|length > 1 %}
 <section class="stream" aria-labelledby="ultime">
   <h2 id="ultime" class="section-title">Le ultime</h2>

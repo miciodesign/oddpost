@@ -29,6 +29,9 @@ image_alt: Descrizione breve dell'immagine, in italiano
 # Non serve impostare "image": viene calcolato automaticamente dalla image_query.
 # Per tenerlo nascosto finché non è pronto:
 # draft: true
+# Per metterlo nel riquadro "Le più lette" in home (uso manuale/periodico,
+# in base ai dati di Search Console — non impostarlo di default sui pezzi nuovi):
+# in_evidenza: true
 ---
 Primo paragrafo: il fatto, subito, in modo che chi legge capisca in tre righe perché è strano.
 

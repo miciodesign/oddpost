@@ -10,6 +10,7 @@ tema: record
 seo_title: Record di tagli di capelli sott'acqua: 28 in un'ora (Guinness)
 image_query: underwater scuba diver
 image_alt: Sub sott'acqua
+in_evidenza: true
 ---
 Ventotto tagli di capelli in sessanta minuti non sarebbero un'impresa da raccontare, se non fosse che Andre Groenewald li ha fatti sul fondo di una piscina, con bombola, erogatore e maschera, a clienti che a loro volta respiravano da una bombola. Il Guinness World Records ha certificato il risultato e lo ha raccontato il 16 ottobre: è il nuovo record di **tagli di capelli sott'acqua in un'ora**.
 

@@ -126,6 +126,7 @@ def load_articles() -> list[dict]:
             if tema not in TEMI:
                 tema = "mondo"
             in_breve = {k: meta[f"in_breve_{k}"] for k in ("dove", "cosa", "perche") if meta.get(f"in_breve_{k}")}
+            in_evidenza = meta.get("in_evidenza", "").strip().lower() in ("true", "1", "si", "sì", "yes")
 
             image = meta.get("image")
             image_credit = meta.get("image_credit")
@@ -141,6 +142,7 @@ def load_articles() -> list[dict]:
                 "rubrica": RUBRICHE[rubrica],
                 "tema": TEMI[tema],
                 "in_breve": in_breve,
+                "in_evidenza": in_evidenza,
                 "image": image,
                 "image_credit": image_credit,
                 "image_credit_url": image_credit_url,
@@ -201,9 +203,17 @@ def build() -> None:
     nav_pages = [p for p in pages if p.get("nav", "").lower() == "true"]
     env.globals["nav_pages"] = nav_pages
 
+    in_evidenza = [a for a in articles if a["in_evidenza"]][:4]
+    oggetti_vetrina = by_rubrica.get("oggetti", [])[:4]
+
     # Home
     write(OUT / "index.html", env.get_template("home.html").render(
-        articles=articles, by_rubrica=by_rubrica, title=None))
+        articles=articles, by_rubrica=by_rubrica,
+        in_evidenza=in_evidenza, oggetti_vetrina=oggetti_vetrina, title=None))
+
+    # Elenco di tutti gli articoli, per il pulsante "Sorprendimi"
+    write(OUT / "static" / "articoli.json", json.dumps(
+        [{"url": a["url"], "title": a["title"]} for a in articles], ensure_ascii=False))
 
     # Rubriche
     for slug, rub in RUBRICHE.items():

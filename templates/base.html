@@ -37,6 +37,7 @@
     {% for t in temi.values() %}
     <a href="/tema/{{ t.slug }}/"{% if request_tema is defined and request_tema == t.slug %} aria-current="page"{% endif %}>{{ t.name }}</a>
     {% endfor %}
+    <button type="button" id="sorprendimi" class="sorprendimi">🎲 Sorprendimi</button>
   </nav>
 </header>
 
@@ -60,5 +61,19 @@
     <p class="footer-legal">© {{ now.year }} {{ site.name }}. Alcuni link sono di affiliazione: se compri, riceviamo una piccola commissione, tu non paghi nulla in più.</p>
   </div>
 </footer>
+<script>
+(function () {
+  var btn = document.getElementById('sorprendimi');
+  if (!btn) return;
+  btn.addEventListener('click', function () {
+    fetch('/static/articoli.json').then(function (r) { return r.json(); }).then(function (list) {
+      var here = location.pathname;
+      var others = list.filter(function (a) { return a.url !== here; });
+      if (!others.length) return;
+      location.href = others[Math.floor(Math.random() * others.length)].url;
+    });
+  });
+})();
+</script>
 </body>
 </html>

@@ -24,6 +24,11 @@ Le immagini si scaricano solo in CI (serve `PIXABAY_API_KEY` nei secret del repo
 non può raggiungere pixabay.com: in locale `python3 build.py` genera il sito senza immagini nuove, usa quelle
 già in `static/img/articoli/` se presenti.
 
+`in_evidenza: true` mette l'articolo nel riquadro "Le più lette" in home (al massimo 4). È una curatela manuale,
+da aggiornare di tanto in tanto guardando Search Console — non va impostato di default sui pezzi nuovi.
+La home mostra anche una vetrina fissa "Cose strane (e in vendita)" con gli ultimi pezzi della rubrica Oggetti,
+e un pulsante "Sorprendimi" che porta a un articolo a caso (legge `static/articoli.json`, generato da `build.py`).
+
 ## Struttura
 
 - `content/storie/` — rubrica "Storie strane ma vere"
