@@ -5,7 +5,7 @@ slug: suricati-kalahari-tornano-a-casa-da-soli-zurigo
 summary: I suricati fanno tutto in gruppo, dal cercare il cibo al fare la guardia. Un team dell'Università di Zurigo ha voluto vedere che cosa succede quando uno resta solo: lo ha catturato in un sacco, rilasciato a 1,5 chilometri e seguito con collare GPS e cineprese. Venti prove in tre mesi, quasi tutti a casa, senza differenze tra maschi, femmine, veterani e giovani alla prima uscita.
 tema: animali
 seo_title: Suricati del Kalahari: tornano a casa da soli da 1,5 km (Zurigo)
-meta_description: Università di Zurigo al Kalahari Research Centre: suricati (Suricata suricatta) rilasciati a 1,5 km dal gruppo tornano quasi sempre, anche da giovani. Studio JEB.
+meta_description: Università di Zurigo al Kalahari Research Centre: suricati (Suricata suricatta) rilasciati a 1,5 km dal gruppo tornano quasi sempre, anche da giovani.
 in_breve_dove: Kalahari Research Centre, Sudafrica
 in_breve_cosa: In venti prove, suricati separati dal gruppo e rilasciati a 1,5 chilometri hanno ritrovato la strada quasi sempre
 in_breve_perche: Vivono sempre in banda, ma ciascuno ha in testa la mappa del territorio e la usa da solo, anche da giovanissimo
