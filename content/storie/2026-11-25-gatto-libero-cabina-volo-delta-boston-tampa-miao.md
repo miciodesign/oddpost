@@ -4,7 +4,7 @@ date: 2026-11-25
 slug: gatto-libero-cabina-volo-delta-boston-tampa-miao
 summary: Sul volo Delta 2706 da Boston a Tampa un gatto si è liberato dal trasportino mentre l'aereo era già in movimento verso la pista. Il rullaggio si è fermato, il passeggero a quattro zampe è stato recuperato e l'aereo è arrivato a destinazione in orario. Lo scambio radio con il controllore è finito sui social.
 tema: animali
-seo_title: Volo Delta 2706 Boston-Tampa: gatto libero in cabina e torre «Miao»
+seo_title: Delta 2706 Boston-Tampa: gatto libero in cabina e la torre fa «Miao»
 meta_description: Sul volo Delta 2706 da Boston Logan a Tampa un gatto è scappato dal trasportino durante il rullaggio. Il pilota ha avvisato la torre, che ha risposto «Miao».
 in_breve_dove: Aeroporto Logan di Boston, Massachusetts
 in_breve_cosa: Un gatto è uscito dal trasportino durante il rullaggio del volo Delta 2706 per Tampa e l'aereo si è fermato per riprenderlo
